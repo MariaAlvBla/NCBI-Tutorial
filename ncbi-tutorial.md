@@ -2,9 +2,10 @@
 
 #
 
-Authors: María José Álvarez Blanco, Stephanie Jurburg
+Authors: María José Álvarez Blanco & Stephanie Jurburg
 
 Contact MICODA Team: <contact.micoda@gmail.com>
+
 
 
 ## Table of content
