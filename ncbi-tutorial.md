@@ -92,7 +92,7 @@ For accessing the Sequence Read Archive (SRA) follow the next steps:
 
 For every step, you will have to add information or files; whenever you want to save your progress, you must press ***Continue***. You can review or make changes to your previous steps during submission by clicking on the preceding tabs.  
 
-At any point, after having saved your progress, you can leave NCBI and continue the process of submission later. Accessing an unfinished submission will be explained in the section [Accessing an unfinished submission](#unfinished). If, however, you click the ***Submit*** button at the last step, making changes would follow other routes; which is explained in the section [Changing a submission](#changing). 
+At any point, after having saved your progress, you can leave NCBI and [continue the process of submission later](#unfinished). If, however, you click the ***Submit*** button at the last step, [making changes would follow other routes](#changing). 
 
 You may get *Error* or *Warning* messages when saving your progress. Error messages describe the Error and suggest a solution that must be corrected before you can move to the next step of your submission. On the other hand, the Warning messages attempt to prevent you from making a possible mistake and do not block you from continuing your submission. 
 
@@ -100,15 +100,15 @@ You may get *Error* or *Warning* messages when saving your progress. Error mess
 
 The submitting person will be asked for personal information at this step. At the fields signaled in the following picture we recommend using you institutional **e-mail** and writting the name of the **institution** you work for.
 
-<img src=".\First time upload images\submitter.png">
+<img src=".\First time upload images\submitter.png" width=70% height=70%>
 
 #### Step 2. General Information <a name="general"></a>
 
-<img src=".\First time upload images\general-info.png">
+<img src=".\First time upload images\general-info.png" width=60% height=60%>
 
 The **BioProject** represents the research project from which the sequence originated.The information supplied in the **Biosample** provides context to your experimental data. Every metagenome, time point, tissue type, or treatment type must has its Biosample; but biological and technical replicates are not unique BioSamples. *For example, 23 000 unique 16S amplicons from a single seawater collection point would constitute one BioSample because they all share the same biological and physical properties.*
 
-The default **release date** is “Release immediately following processing”, but you can select a specific date for releasing your data. If you don’t know the exact data you can change it even after having finished the submission by clicking on the ***Manage tab*** at the Submission Portal (more information on [Changing a submission](#changing)).
+The default **release date** is “Release immediately following processing”, but you can select a specific date for releasing your data. If you don’t know the exact data you can change it even after having finished the submission by clicking on the [***Manage tab*** at the Submission Portal](#changing).
 
 *A BioProject can share BioSamples with others BioProjects and BioSamples can belong to more than one BioProject. You would choose to have a BioSample in several BioProjects if, for example, the sequences were used to answer different research questions/goals which are described in separate BioProjects. You may also have a BioProject to which you already deposited data but want to deposite new BioSamples.*
 
@@ -120,12 +120,17 @@ Depending on your answers at this step, the next steps would follow one of these
 
 #### Step 3. Project (BioProject) information<a name="bioproject"></a>
 
-<img src=".\First time upload images\general-info2.png">
+<img src=".\First time upload images\bioproject-info.png" width=70% height=70%>
 
 At the **Public description** provide information that best describes your research, which will become the description of your BioProject. If you have an **abstract** or research summary of your research project, you should add it here. Also, we recommend that at **URL** you add the DOI link to any publication of yours that is related to this data. 
 
 #### Step 4. BioSample type<a name="biotype"></a>
-This is a sub paragraph, formatted in heading 3 style
+
+In this step, you will select a **Package** that best fits the nature of your Biosample. According to your selected package the Submission Portal will supply you with an *attribute table* for the [next step](#bioattributes) that best describes the context of your BioSamples.
+
+For the Datathon, we kindly ask you to select the package ***MIMARKS Survey related***. You can select the sample type from the drop-down menu that better describes your sample.
+
+<img src=".\First time upload images\biosample-type-section.png" width=50% height=50%>
 
 #### Step 5. BioSample attributes <a name="bioattributes"></a>
 This is a sub paragraph, formatted in heading 3 style
