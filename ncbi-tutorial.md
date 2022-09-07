@@ -8,11 +8,6 @@ Contact MICODA Team: <contact.micoda@gmail.com>
 
 Associated institutions:
 
-![iDivLogo-short](https://user-images.githubusercontent.com/105878243/188907978-37a3e1c1-84bb-46f1-ad70-e3cc74144100.png)
-
-![logo MiCoDa empty](https://user-images.githubusercontent.com/105878243/188907997-792e4419-7f11-475a-9df6-c72753da6231.png)
-
-![ufz_logo](https://user-images.githubusercontent.com/105878243/188908270-68392896-e439-44d3-a63a-a5102f058453.png)
 
 ## Table of content
 
@@ -55,7 +50,7 @@ To register to NCBI follow the next process:
 - A menu with several lo Login options will be displayed. You can choose whichever you prefer for setting your account.
 
 
-<img src="C:\Users\chepi\Desktop\IDIV job\MiCoDa\Educational material\pictures for github\login-options.png" style="width:6.3in;height:1.13861in" />
+<img src = "login-options.png">
 
 
 ## Accessing the Sequence Read Archive (SRA) <a name="accessingsra"></a>
