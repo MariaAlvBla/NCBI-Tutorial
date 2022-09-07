@@ -106,11 +106,12 @@ The submitting person will be asked for personal information at this step. At th
 
 <img src=".\First time upload images\general-info.png" width=60% height=60%>
 
-The **BioProject** represents the research project from which the sequence originated.The information supplied in the **Biosample** provides context to your experimental data. Every metagenome, time point, tissue type, or treatment type must has its Biosample; but biological and technical replicates are not unique BioSamples. *For example, 23 000 unique 16S amplicons from a single seawater collection point would constitute one BioSample because they all share the same biological and physical properties.*
+The **BioProject** represents the research project from which the sequence originated.The information supplied in the **Biosample** provides context to your experimental data. Every metagenome, time point, tissue type, or treatment type must has its Biosample; but biological and technical replicates are not unique BioSamples.
+> For example, 23 000 unique 16S amplicons from a single seawater collection point would constitute one BioSample because they all share the same biological and physical properties.
 
 The default **release date** is “Release immediately following processing”, but you can select a specific date for releasing your data. If you don’t know the exact data you can change it even after having finished the submission by clicking on the [***Manage tab*** at the Submission Portal](#changing).
 
-*A BioProject can share BioSamples with others BioProjects and BioSamples can belong to more than one BioProject. You would choose to have a BioSample in several BioProjects if, for example, the sequences were used to answer different research questions/goals which are described in separate BioProjects. You may also have a BioProject to which you already deposited data but want to deposite new BioSamples.*
+A BioProject can share BioSamples with others BioProjects and BioSamples can belong to more than one BioProject. You would choose to have a BioSample in several BioProjects if, for example, the sequences were used to answer different research questions/goals which are described in separate BioProjects. You may also have a BioProject to which you already deposited data but want to deposite new BioSamples.
 
 <img src=".\First time upload images\diagram.png" width=60% height=60%>
 
@@ -133,10 +134,41 @@ For the Datathon, we kindly ask you to select the package ***MIMARKS Survey rela
 <img src=".\First time upload images\biosample-type-section.png" width=50% height=50%>
 
 #### Step 5. BioSample attributes <a name="bioattributes"></a>
-This is a sub paragraph, formatted in heading 3 style
+
+At this step, you will provide contextual information about your BioSamples. 
+> If for example, you have 23000 16S amplicons from a single seawater collection point, they would constitute a single BioSample because 1 sample was collected and then analyzed to deduce 16S diversity.
+
+In this example, at the attribute table, you would add the contextual information for the single BioSample. The **sample_name** you give each Biosample in the attribute table will be again used at the **SRA metadata table** to link the specific sequences to the BioSample they come from. The sample name must be the same in both Excel files for them to be linked together.
+
+<img src=".\First time upload images\biosample-attribute.png" width=80% height=80%>
+
+For the Datathon, select ***Uploading a file using Excel format*** and use the custom Excel File we will provide called ***MIMARKS.survey.soil.5.0_Dathaton.xlsx***. Please read the instructions included in the excel carefully before filling in the values. *Remember that you can only upload the tab-delimited text file version of the tab "MIMARKS.survey.soil.5.0".*
 
 ##### Possible Errors at this step <a name="errors1"></a>
-This is a sub paragraph, formatted in heading 3 style
+
+> ***Error: Multiple BioSamples cannot have identical attributes***
+
+**Problem**
+
+After filling out values for attributes provided in the template, your samples are not distinguishable by at least one or a combination of attributes.
+
+**Solution**
+
+Make sure the combined value of all attributes is unique for each Biological sample while taking into account that "sample name," "sample title," and "description" are not included in this check for "uniqueness" of the sample's attributes. If this problem arises because of biological replicates, please add a replicate column to the sheet and record the replicate numbers to differentiate them.
+
+>***Error: Multiple BioSamples cannot have identical attributes***
+
+**Problem**
+
+In your current SRA submission, you have re-created samples that duplicate samples you already registered elsewhere, and the Submission Portal is preventing you from creating duplicates." 
+
+**Solution**
+
+This would be the case if you had already deposited the BioSample under another BioProject. If you want to include them inside the new BioProject, go back to the General Info tab and select “Yes” to the question “Did you already register BioSamples for this data set?” . The SRA Submission Wizard will then skip the BioSample type and attributes steps.
+
+At the SRA metadata step, and if you are using the “SRA_metadata_Datathon.xlsx”, you need to change the name of the first column from "*sample_name" to "biosample_accession”. Then you can add the existing BioSample's accession numbers (SAMN#) to link the new sequence files to the already existing BioSamples; and to include them in the new BioProject. 
+
+To find the accession numbers of Biosamples you already registered go to the Submission Portal and follow the next steps: 
 
 #### Step 6. SRA Metadata<a name="metadata"></a>
 This is a sub paragraph, formatted in heading 3 style
