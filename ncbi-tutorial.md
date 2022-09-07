@@ -6,7 +6,13 @@ Authors: María José Álvarez Blanco & Stephanie Jurburg
 
 Contact MICODA Team: <contact.micoda@gmail.com>
 
+Associated institutions:
 
+![iDivLogo-short](https://user-images.githubusercontent.com/105878243/188907978-37a3e1c1-84bb-46f1-ad70-e3cc74144100.png)
+
+![logo MiCoDa empty](https://user-images.githubusercontent.com/105878243/188907997-792e4419-7f11-475a-9df6-c72753da6231.png)
+
+![ufz_logo](https://user-images.githubusercontent.com/105878243/188908270-68392896-e439-44d3-a63a-a5102f058453.png)
 
 ## Table of content
 
