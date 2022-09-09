@@ -169,7 +169,9 @@ This would be the case if you had already deposited the BioSample under another 
 At the SRA metadata step, and if you are using the “SRA_metadata_Datathon.xlsx”, you need to change the name of the first column from "*sample_name" to "biosample_accession”. Then you can add the existing BioSample's accession numbers (SAMN#) to link the new sequence files to the already existing BioSamples; and to include them in the new BioProject. 
 
 To find the accession numbers of Biosamples you already registered go to the Submission Portal and follow the next steps: 
+
 1. Click ***My submissions***.
+
 2. Click at ***objects*** in the BioSample section of the Project. 
 
 <img src=".\First time upload images\my-submissions.png">
@@ -178,7 +180,7 @@ To find the accession numbers of Biosamples you already registered go to the Sub
 
 The SRA metadata describes the technical aspects of each sequencing experiment: the sequencing libraries, preparation techniques, and the names of the data files. 
 
-For the Datathon, select "Uploading a file using Excel format" and use the custom Excel File called "SRA_metadata_Dathaton.xlsx". Please read the instructions included in the excel carefully before filling in the values. You can only upload thetab-delimited text file version of the tab "SRA data".
+For the Datathon, select ***Uploading a file using Excel format*** and use the custom Excel File called **SRA_metadata_Dathaton.xlsx**. Please read the instructions included in the excel carefully before filling in the values. You can only upload thetab-delimited text file version of the tab "SRA data".
 
 <img src=".\First time upload images\sra-metadata.png" width=80% height=80%>
 
@@ -201,10 +203,20 @@ When submitting new BioSamples, at the “BioSample attributes” step, a specif
 If, on the other hand, you want to submit new sequences to already existing BioSamples, you have to change the first’s column name on the SRA_metadata_Dathaton.xlsx’s excel file from "*sample_name" to "biosample_accession”. Then you can add the existing BioSample's accession numbers (SAMN#) to link the new sequence files to the already existing BioSamples; and to include them in the new BioProject. How to find the accession numbers of your BioSamples was explained at the BioSample attributes step.
 
 ##### Explanation of the elements of a public display at a single SRA Sample <a name="elementssra"></a>
-This is a sub paragraph, formatted in heading 3 style
+
+<img src=".\First time upload images\experiment-display-long.png">
 
 #### Step 7. Files <a name="files"></a>
-This is a sub paragraph, formatted in heading 3 style
+
+In the step, you will upload the files listed in the SRA Metadata Excel file. Files can be compressed using gzip or bzip2 and may be submitted in a tar archive, but archiving and/or compressing your files is not required. Uploading zip files is not permitted. If you are uploading a tar archive, list each file name, not the archive name.
+
+<img src=".\First time upload images\uploading-files.png">
+
+We recommend you use the ***Web browser upload via HTTP or Aspera Connect plugin*** option to upload the files, unless you have more than 10 GB of data or more than 300 files.
+
+Also, we recommend you select ***Autofinish submission*** once the files have been successfully uploaded. Take into consideration that depending on the size and number of files, the uploading may take from several minutes to a few hours to get uploaded. 
+
+Don’t forget to press ***Continue*** to save your progress. Otherwise you have to upload the files again.
 
 #### Step 8. Review and Submit <a name="review"></a>
 This is a sub paragraph, formatted in heading 3 style
