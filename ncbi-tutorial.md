@@ -51,11 +51,11 @@
 
 Follow the next steps:
 
-- [**Access NCBI's homepage**](https://www.ncbi.nlm.nih.gov/) and select ***Log in***.
+1. [**Access NCBI's homepage**](https://www.ncbi.nlm.nih.gov/) and click ***Log in***.
 
 <img src=".\First time upload images\home-login.png">
 
-- A menu with several lo Login options will be displayed. You can choose whichever you prefer for setting your account.
+2. A menu with several lo Login options will be displayed. You can choose whichever you prefer for setting your account.
 
 <img src=".\First time upload images\login-options.PNG">
 
@@ -63,17 +63,17 @@ Follow the next steps:
 
 For accessing the Sequence Read Archive (SRA) follow the next steps:
 
-- While being logged in, [**Access NCBI's homepage**](https://www.ncbi.nlm.nih.gov/). ***write 16S rRNA*** 
+1. While being logged in, [**Access NCBI's homepage**](https://www.ncbi.nlm.nih.gov/). ***write 16S rRNA*** 
 
-- Select ***Submit***.
+2. Click ***Submit***.
 
 <img src=".\First time upload images\home-submit.png">
 
-- The main page of the Submission Portal will be displayed. For the occasion of the Datathon, ***write 16S rRNA*** in the search bar and ***select SRA***. This leads to the Sequence Read Archive, which specializing in managing data such 16S rRNA.
+3. The main page of the Submission Portal will be displayed. For the occasion of the Datathon, ***write 16S rRNA*** in the search bar and ***click SRA***. This leads to the Sequence Read Archive, which specializing in managing data such 16S rRNA.
 
 <img src=".\First time upload images\portal-submit.png">
  
--  A webpage with information on the Sequence Read Archive (SRA) will be displayed. Select ***Submit***.
+4. A webpage with information on the Sequence Read Archive (SRA) will be displayed. Click ***Submit***.
 
 <img src=".\First time upload images\sra-submit.png">
 
@@ -93,24 +93,25 @@ For accessing the Sequence Read Archive (SRA) follow the next steps:
 
 For every step, you will have to add information or files; whenever you want to save your progress, you must press ***Continue***. You can review or make changes to your previous steps during submission by clicking on the preceding tabs.  
 
-At any point, after having saved your progress, you can leave NCBI and [continue the process of submission later](#unfinished). If, however, you click the ***Submit*** button at the last step, [making changes would follow other routes](#changing). 
+At any point, after having saved your progress, you can leave NCBI and [continue the process of submission later](#unfinished). If, however, you click the ***Submit*** button at the [last step](#review), [making changes would follow other routes](#changing). 
 
 You may get *Error* or *Warning* messages when saving your progress. Error messages describe the Error and suggest a solution that must be corrected before you can move to the next step of your submission. On the other hand, the Warning messages attempt to prevent you from making a possible mistake and do not block you from continuing your submission. 
 
 #### Step 1. Submitter <a name="submitter"></a>
 
-The submitting person will be asked for personal information at this step. At the fields signaled in the following picture we recommend using you institutional **e-mail** and writting the name of the **institution** you work for.
-
 <img src=".\First time upload images\submitter.png" width=70% height=70%>
+
+At this step, the submitting person will be asked for personal information at this step. At the fields signaled in the following picture we recommend using you institutional **e-mail** and writting the information of the **institution** you work for.
 
 #### Step 2. General Information <a name="general"></a>
 
 <img src=".\First time upload images\general-info.png" width=60% height=60%>
 
 The **BioProject** represents the research project from which the sequence originated.The information supplied in the **Biosample** provides context to your experimental data. Every metagenome, time point, tissue type, or treatment type must has its Biosample; but biological and technical replicates are not unique BioSamples.
+
 > For example, 23 000 unique 16S amplicons from a single seawater collection point would constitute one BioSample because they all share the same biological and physical properties.
 
-The default **release date** is “Release immediately following processing”, but you can select a specific date for releasing your data. If you don’t know the exact data you can change it even after having finished the submission by clicking on the [***Manage tab*** at the Submission Portal](#changing).
+The default **release date** is **Release immediately following processing**, but you can select a specific date for releasing your data. If you don’t know the exact data you can change it even after having finished the submission by clicking on the [***Manage tab*** at the Submission Portal](#changing).
 
 A BioProject can share BioSamples with others BioProjects and BioSamples can belong to more than one BioProject. You would choose to have a BioSample in several BioProjects if, for example, the sequences were used to answer different research questions/goals which are described in separate BioProjects. You may also have a BioProject to which you already deposited data but want to deposite new BioSamples.
 
@@ -128,22 +129,23 @@ At the **Public description** provide information that best describes your resea
 
 #### Step 4. BioSample type<a name="biotype"></a>
 
-In this step, you will select a **Package** that best fits the nature of your Biosample. According to your selected package the Submission Portal will supply you with an *attribute table* for the [next step](#bioattributes) that best describes the context of your BioSamples.
+In this step, you will select a **Package** that best fits the nature of your Biosample. According to your selected package the Submission Portal will supply you with a customized **attribute table** for the [next step](#bioattributes) that best describes the context of your BioSamples.
 
-For the Datathon, we kindly ask you to select the package ***MIMARKS Survey related***. You can select the sample type from the drop-down menu that better describes your sample.
+For the **Datathon**, please select the package ***MIMARKS Survey related***, and then at the displayed drop-down menu, select the sample type that better describes your sample.
 
 <img src=".\First time upload images\biosample-type-section.png" width=50% height=50%>
 
 #### Step 5. BioSample attributes <a name="bioattributes"></a>
 
 At this step, you will provide contextual information about your BioSamples. 
-> If for example, you have 23000 16S amplicons from a single seawater collection point, they would constitute a single BioSample because 1 sample was collected and then analyzed to deduce 16S diversity.
 
-In this example, at the attribute table, you would add the contextual information for the single BioSample. The **sample_name** you give each Biosample in the attribute table will be again used at the **SRA metadata table** to link the specific sequences to the BioSample they come from. The sample name must be the same in both Excel files for them to be linked together.
+> If for example, you have 23000 16S amplicons from a single seawater collection point, they would constitute a single BioSample because 1 sample was collected and then analyzed to deduce 16S diversity. In this example, at the **attribute table**, you would add the contextual information for the single BioSample.
+
+The **sample_name** you give each Biosample in the attribute table will be again used at the **SRA metadata table** to link the specific sequences to the BioSample they come from. The sample name must be the same in both Excel files for them to be linked together.
 
 <img src=".\First time upload images\biosample-attribute.png" width=80% height=80%>
 
-For the Datathon, select ***Uploading a file using Excel format*** and use the custom Excel File we will provide called ***MIMARKS.survey.soil.5.0_Dathaton.xlsx***. Please read the instructions included in the excel carefully before filling in the values. *Remember that you can only upload the tab-delimited text file version of the tab "MIMARKS.survey.soil.5.0".*
+For the **Datathon**, select ***Uploading a file using Excel format*** and use the custom Excel File we will provide called ***MIMARKS.survey.soil.5.0_Dathaton.xlsx***. Please read the instructions included in the excel carefully before filling in the values. Remember that you can only upload the tab-delimited text file version of the tab "MIMARKS.survey.soil.5.0".
 
 ##### Possible Errors at this step <a name="errors1"></a>
 
@@ -181,11 +183,11 @@ To find the accession numbers of Biosamples you already registered go to the Sub
 
 The SRA metadata describes the technical aspects of each sequencing experiment: the sequencing libraries, preparation techniques, and the names of the data files. 
 
-For the Datathon, select ***Uploading a file using Excel format*** and use the custom Excel File called **SRA_metadata_Dathaton.xlsx**. Please read the instructions included in the excel carefully before filling in the values. You can only upload thetab-delimited text file version of the tab "SRA data".
-
 <img src=".\First time upload images\sra-metadata.png" width=80% height=80%>
 
-When submitting the project, most descriptive information is captured at the level of the SRA **Experiment** for each separated sequence and is displayed in the public record. Here is an example to better understand the organization of the sequence data in excel:
+For the **Datathon**, select ***Uploading a file using Excel format*** and use the custom Excel File called **SRA_metadata_Dathaton.xlsx**. Please read the instructions included in the excel carefully before filling in the values. You can only upload thetab-delimited text file version of the tab "SRA data".
+
+When submitting the project, the most descriptive information is captured at the level of the SRA **Experiment** for each separated sequence and is displayed in the public record. Here is an example to better understand the organization of the sequence data in excel:
 
 > Six sequencing libraries were prepared from a single biological sample (the Biosample). Three were single-end libraries, and three were paired-end, although the paired-end libraries were sequenced using both paired and unidirectional sequencing. Two single-end libraries were treated using a targeted selection approach for some runs. Libraries were sequenced on two different instruments at three sequencing labs. There are 13 combinations of **library + sequencing strategy + layout + instrument model**. Each combination represents a unique **Experiment**.
 
@@ -265,28 +267,29 @@ If, on the other hand, you want to delete the whole submission click ***Delete s
 
 Follow the next steps:
 
-- While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
+1. While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
 
-- Click ***Submit***
+2. Click ***Submit***
 
-- At the Submission Portal click on ***My submissions***.
+3. At the Submission Portal click on ***My submissions***.
 
 <img src=".\First time upload images\portal-submissions.png" width=80% height=80%>
 
-- Find the submission with the ***Unfinished Status*** that has the title of the submission or the submission ID (SUB#) you are looking for.
+4. Find the submission with the ***Unfinished Status*** that has the title of the submission or the submission ID (SUB#) you are looking for.
 
 <img src=".\First time upload images\unfinished-submission.png">
 
 ## Processing of the submission<a name="processing"></a>
 
 ### The Project is being reviewed by NCBI’s staff<a name="reviewed"></a>
-The first paragraph text
 
 Once submitted, your submission is queued for processing, and you will get feedback probably 24 hours after submitting it. Note that if you created a BioProject or/and a BioSample submissions within the SRA Wizard, you would receive feedback from these first.
 
-If your submission was successfully registered, you will receive the following email. The project number you have been given (PRJ#) will remain the same from now on, but it will not appear to other users until NCBI's staff has fully processed it. We kindly ask you to provide the project number for the Dathaton's database.
+If your submission was successfully registered, you will receive the following email. 
 
 <img src=".\First time upload images\email-1.png">
+
+The project number you have been given (PRJ#) will remain the same from now on, but it will not appear to other users until NCBI's staff has fully processed it. We kindly ask you to provide the project number for the Dathaton's database.
 
 ### The Project has been accepted<a name="accepted"></a>
 
@@ -323,21 +326,24 @@ The marked elements are:
 
 Follow the next steps:
 
-- While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
+1. While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
 
-- Click ***Submit***
+2.  Click ***Submit***
 
-- At the Submission Portal click on ***Manage data***.
+3. At the Submission Portal click on ***Manage data***.
 
 <img src=".\First time upload images\portal-manage.png" width=80% height=80%>
 
-- Select the BioProject (PRJNA#) you want to update. You can also filter it by BioSamples at the ***BioSample tab*** or by Experiments at the ***SRA tab***. With these other filtering options the data shown by the Data Manager actually can't be edited. 
+4. Select the BioProject (PRJNA#) you want to update. You can also filter it by BioSamples at the ***BioSample tab*** or by Experiments at the ***SRA tab***. With these other filtering options the data shown by the Data Manager actually can't be edited. 
 
 <img src=".\First time upload images\click-manage-data.png" width=80% height=80%>
 
 The BioProject’s managing page allows you to:
+	
 - ***Edit*** fields that were written during the submission.
+	
 - ***Add*** information that was not written during the submission.
+	
 -***Edit*** most fields of the SRA Metadata. You have to check the boxes for the Experiments you want to modify first.
 
 <img src=".\First time upload images\manage-data.png" width=80% height=80%>
@@ -354,19 +360,19 @@ After the RUN is fully loaded, neither its files can be replaced, nor filenames 
 
 As we have seen NCBI supports the inclusion of exhaustive metadata when uploading data, and its further dowload from accepted submissions. Unfortunatly, it's not so easy to download all the genetic files of a BioSample or BioProject, you would usually have to dowload the Experiments one by one. For this reason, for downloading data in bulk, we recommend using the portal from the European Bioinformatics Institute  as part of the European Molecular Biology Laboratory [**(EMBL-EBI)**(https://www.ebi.ac.uk/). For this you would have to follow the next steps:
 
-- Access[**EMBL-EBI's homepage**(https://www.ebi.ac.uk/)
+1. Access[**EMBL-EBI's homepage**(https://www.ebi.ac.uk/)
 
-- Write the accession code of the BioProject, BioSample or SRA you are interested in, and click ***Search***.
+2. Write the accession code of the BioProject, BioSample or SRA you are interested in, and click ***Search***.
 
 <img src=".\First time upload images\european-portal-search.png" width=80% height=80%>
 
-- Scroll down and select the entry corresponding to the accession number you were looking for.
+3. Scroll down and select the entry corresponding to the accession number you were looking for.
 
-- A shortened version of the metadata will be shown, as well as the files belonging to this accession number. For accessing the file's download option, scroll to the right at the sections with the list of files. The Metadata shown in EMBL-EBI will be very similar that displayed publicaly in NCBI when searching for a [BioProject](#accepted), [BioSample](#publicbiosample) or [Experiment (SRA)](#publicsra). The only exception is that the thorough Metadata Excels of the [attributes of a Biosample](#bioattributes) and the [SRA characteristics](#metadata) are not available in this portal.
+4. A shortened version of the metadata will be shown, as well as the files belonging to this accession number. For accessing the file's download option, scroll to the right at the sections with the list of files. The Metadata shown in EMBL-EBI will be very similar that displayed publicaly in NCBI when searching for a [BioProject](#accepted), [BioSample](#publicbiosample) or [Experiment (SRA)](#publicsra). The only exception is that the thorough Metadata Excels of the [attributes of a Biosample](#bioattributes) and the [SRA characteristics](#metadata) are not available in this portal.
 
 <img src=".\First time upload images\dowload-ebi.png" width=80% height=80%>
 
-- Click ***Download All*** if you want to dowload all the **Experiments (SRR)** under this accession number. If you want to dowload only specific Experiments, select the corresponding check-boxes and click ***Download selected files***
+5. Click ***Download All*** if you want to dowload all the **Experiments (SRR)** under this accession number. If you want to dowload only specific Experiments, select the corresponding check-boxes and click ***Download selected files***
 
 <img src=".\First time upload images\ebi-download-scroll.png" width=80% height=80%>
 
