@@ -49,7 +49,7 @@
 
 ## Registering to NCBI <a name="registering"></a>
 
-To register to NCBI follow the next process:
+Follow the next steps:
 
 - [**Access NCBI's homepage**](https://www.ncbi.nlm.nih.gov/) and select ***Log in***.
 
@@ -244,6 +244,7 @@ Upload files that are reported missing. Also, check that filenames listed in you
 > ***Error: File <filename> is corrupted. Please re-upload the file...***
 
 **Problem**
+
 This Error occurs either because you have corrupt files on your side or the files became corrupted during transfer. 
 
 **Solution**
@@ -258,28 +259,115 @@ At this step you get to review your submission's summary and make sure that ever
 	
 Click ***Submit*** when you are sure everything is correct. After submitting, future changes to the BioProject are limited or can only be achieved by contacting NCBI's service desk.
 	
-If, on the other hand, you want to delete the whole submission click ***Delete submission***. This is the only opportunity you will get for deleting the submission without having to email NCBI’s service desk
+If, on the other hand, you want to delete the whole submission click ***Delete submission***. This is the only opportunity you will get for deleting the submission without having to email NCBI’s service desk.
 	
 ## Accessing an unfinished submission <a name="unfinished"></a>
-The first paragraph text
+
+Follow the next steps:
+
+- While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
+
+- Click ***Submit***
+
+- At the Submission Portal click on ***My submissions***.
+
+<img src=".\First time upload images\portal-submissions.png" width=80% height=80%>
+
+- Find the submission with the ***Unfinished Status*** that has the title of the submission or the submission ID (SUB#) you are looking for.
+
+<img src=".\First time upload images\unfinished-submission.png">
 
 ## Processing of the submission<a name="processing"></a>
-The first paragraph text
 
 ### The Project is being reviewed by NCBI’s staff<a name="reviewed"></a>
 The first paragraph text
 
+Once submitted, your submission is queued for processing, and you will get feedback probably 24 hours after submitting it. Note that if you created a BioProject or/and a BioSample submissions within the SRA Wizard, you would receive feedback from these first.
+
+If your submission was successfully registered, you will receive the following email. The project number you have been given (PRJ#) will remain the same from now on, but it will not appear to other users until NCBI's staff has fully processed it. We kindly ask you to provide the project number for the Dathaton's database.
+
+<img src=".\First time upload images\email-1.png">
+
 ### The Project has been accepted<a name="accepted"></a>
-The first paragraph text
+
+After the submitted data has been processed, you will receive the following email.
+
+<img src=".\First time upload images\email-2.png">
+
+Once the Project has been accepted, when someone searches for your project, the following information will be displayed.
+
+<img src=".\First time upload images\search-prj.png">
 
 #### Public display and searchable elements of a BioSample<a name="publicbiosample"></a>
-The first paragraph text
+
+<img src=".\First time upload images\biosample-public.png">
+
+The **BioSample (SAMN#)** is the identifier of specific Biosamples.
+Clicking on ***Retrieve all samples from this project*** allows you to see all the other BioSamples associated to the BioProject.
 
 ### Public display and searchable elements of a SRA Experiment<a name="publicsra"></a>
-The first paragraph text
+
+<img src=".\First time upload images\experiment-display-short.png">
+
+The marked elements are:
+
+- **Experiment (SRX#)**: identifier of instrument and library information of a specific sample (SRS#).
+
+- Study (SRP#) identifier of a study within a BioProject.
+
+- Sample (SRS#): identifier of a sample of sequence data.
+
+- Run (SRR#): identifier of the data file(s) derived from sequencing a library described by the associated EXPERIMENT.
 
 ## Changing a submission<a name="changing"></a>
-The first paragraph text
+
+Follow the next steps:
+
+- While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
+
+- Click ***Submit***
+
+- At the Submission Portal click on ***Manage data***.
+
+<img src=".\First time upload images\portal-manage.png" width=80% height=80%>
+
+- Select the BioProject (PRJNA#) you want to update. You can also filter it by BioSamples at the ***BioSample tab*** or by Experiments at the ***SRA tab***. With these other filtering options the data shown by the Data Manager actually can't be edited. 
+
+<img src=".\First time upload images\click-manage-data.png" width=80% height=80%>
+
+The BioProject’s managing page allows you to:
+- ***Edit*** fields that were written during the submission.
+- ***Add*** information that was not written during the submission.
+-***Edit*** most fields of the SRA Metadata. You have to check the boxes for the Experiments you want to modify first.
+
+<img src=".\First time upload images\manage-data.png" width=80% height=80%>
+
+If you want to add more data to an existing BioProject or Biosample, create a new SRA submission and enter the accession number of the BioProject (PRJNA#) or the Biosample (SAMN#) when asked. This will ensure that the new data is linked to the existing BioProject.
+
+If you want to change the attributes or withdraw a BioProject or BioSample that has already been submitted and not necessarily accepted, you have to conact bioprojecthelp@ncbi.nlm.nih.gov or biosamplehelp@ncbi.nlm.nih.gov for assistance in updating your BioProject or BioSample submission respectively.
+
+A Submission represents a discrete act of depositing data (a transaction). The submission has a temporary non-public ID as a SUB#. You cannot add more data to a completed submission.To update a submission, contact sra@ncbi.nlm.nih.gov.
+
+After the RUN is fully loaded, neither its files can be replaced, nor filenames can be changed. You will have to submit new files in a separate submission using existing BioProject and BioSample accessions in the SRA metadata and request withdrawal of the RUN containing the old files.
 
 ## Downloading data<a name="dowloading"></a>
-The first paragraph text
+
+As we have seen NCBI supports the inclusion of exhaustive metadata when uploading data, and its further dowload from accepted submissions. Unfortunatly, it's not so easy to download all the genetic files of a BioSample or BioProject, you would usually have to dowload the Experiments one by one. For this reason, for downloading data in bulk, we recommend using the portal from the European Bioinformatics Institute  as part of the European Molecular Biology Laboratory [**(EMBL-EBI)**(https://www.ebi.ac.uk/). For this you would have to follow the next steps:
+
+- Access[**EMBL-EBI's homepage**(https://www.ebi.ac.uk/)
+
+- Write the accession code of the BioProject, BioSample or SRA you are interested in, and click ***Search***.
+
+<img src=".\First time upload images\european-portal-search.png" width=80% height=80%>
+
+- Scroll down and select the entry corresponding to the accession number you were looking for.
+
+- A shortened version of the metadata will be shown, as well as the files belonging to this accession number. For accessing the file's download option, scroll to the right at the sections with the list of files. The Metadata shown in EMBL-EBI will be very similar that displayed publicaly in NCBI when searching for a [BioProject](#accepted), [BioSample](#publicbiosample) or [Experiment (SRA)](#publicsra). The only exception is that the thorough Metadata Excels of the [attributes of a Biosample](#bioattributes) and the [SRA characteristics](#metadata) are not available in this portal.
+
+<img src=".\First time upload images\dowload-ebi.png" width=80% height=80%>
+
+- Click ***Download All*** if you want to dowload all the **Experiments (SRR)** under this accession number. If you want to dowload only specific Experiments, select the corresponding check-boxes and click ***Download selected files***
+
+<img src=".\First time upload images\ebi-download-scroll.png" width=80% height=80%>
+
+
