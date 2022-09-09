@@ -169,15 +169,36 @@ This would be the case if you had already deposited the BioSample under another 
 At the SRA metadata step, and if you are using the “SRA_metadata_Datathon.xlsx”, you need to change the name of the first column from "*sample_name" to "biosample_accession”. Then you can add the existing BioSample's accession numbers (SAMN#) to link the new sequence files to the already existing BioSamples; and to include them in the new BioProject. 
 
 To find the accession numbers of Biosamples you already registered go to the Submission Portal and follow the next steps: 
+1. Click ***My submissions***.
+2. Click at ***objects*** in the BioSample section of the Project. 
+
+<img src=".\First time upload images\my-submissions.png">
 
 #### Step 6. SRA Metadata<a name="metadata"></a>
-This is a sub paragraph, formatted in heading 3 style
+
+The SRA metadata describes the technical aspects of each sequencing experiment: the sequencing libraries, preparation techniques, and the names of the data files. 
+
+For the Datathon, select "Uploading a file using Excel format" and use the custom Excel File called "SRA_metadata_Dathaton.xlsx". Please read the instructions included in the excel carefully before filling in the values. You can only upload thetab-delimited text file version of the tab "SRA data".
+
+<img src=".\First time upload images\sra-metadata.png" width=80% height=80%>
+
+When submitting the project, most descriptive information is captured at the level of the SRA **Experiment** for each separated sequence and is displayed in the public record. Here is an example to better understand the organization of the sequence data in excel:
+
+> Six sequencing libraries were prepared from a single biological sample (the Biosample). Three were single-end libraries, and three were paired-end, although the paired-end libraries were sequenced using both paired and unidirectional sequencing. Two single-end libraries were treated using a targeted selection approach for some runs. Libraries were sequenced on two different instruments at three sequencing labs. There are 13 combinations of **library + sequencing strategy + layout + instrument model**. Each combination represents a unique **Experiment**.
 
 ##### Recommendations to avoid common errors when submitting SRA metadata <a name="avoiderrors"></a>
-This is a sub paragraph, formatted in heading 3 style
+
+- Paired-end data files (forward/reverse) must be listed together in the same **Run** (in the case of the excel in the same row) for the two files to be correctly processed as paired-end. All data files listed in a **Run** will be merged into a single .sra archive file. Therefore, files from different samples or experiments should not be grouped in the same **Run**.
+
+- File name(s) for the **Experiments** shouldn’t contain any sensitive information, because they will appear publicly on the Google and AWS clouds.
+
+- Avoid submitting duplicated files because the Portal does not accept this, and such files may be suppressed without warning.
 
 ##### Submitting in new BioSamples vs submitting to already existing ones <a name="newvs"></a>
-This is a sub paragraph, formatted in heading 3 style
+
+When submitting new BioSamples, at the “BioSample attributes” step, a specific name for each Biosample was given on the “sample_name” column on the MIMARKS.survey.soil.5.0_Dathaton.xlsx Excel file. At SRA Metadata step, on the SRA_metadata_Dathaton.xlsx Excel file, the “sample_name” must match that given to the new BioSample, to correctly link the sequence data to the BioSample that describes their biophysical context.
+
+If, on the other hand, you want to submit new sequences to already existing BioSamples, you have to change the first’s column name on the SRA_metadata_Dathaton.xlsx’s excel file from "*sample_name" to "biosample_accession”. Then you can add the existing BioSample's accession numbers (SAMN#) to link the new sequence files to the already existing BioSamples; and to include them in the new BioProject. How to find the accession numbers of your BioSamples was explained at the BioSample attributes step.
 
 ##### Explanation of the elements of a public display at a single SRA Sample <a name="elementssra"></a>
 This is a sub paragraph, formatted in heading 3 style
