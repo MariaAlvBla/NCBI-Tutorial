@@ -36,6 +36,7 @@
 			2. [Submitting in new BioSamples vs submitting to already existing ones](#newvs)
 			3. [Explanation of the elements of a public display at a single SRA Sample](#elementssra)
 		7. [Step 7. Files](#files)
+			1. [Possible Errors or Warnings at this step] (#errors2)
 		8. [Step 8. Review and Submit](#review)
 4. [Accessing an unfinished submission](#unfinished)
 5. [Processing of the submission](#processing)
@@ -218,9 +219,47 @@ Also, we recommend you select ***Autofinish submission*** once the files have be
 
 Don’t forget to press ***Continue*** to save your progress. Otherwise you have to upload the files again.
 
-#### Step 8. Review and Submit <a name="review"></a>
-This is a sub paragraph, formatted in heading 3 style
+##### Possible Errors or Warnings at this step <a name="errors2"></a>
 
+> ***Warning: You uploaded one or more extra files that are not in your Metadata table***
+
+**Problem**
+
+You have uploaded files not listed in your SRA Metadata template. 
+
+**Solution**
+
+If you do not intend to include these files in your SRA submission, click “Continue”. All files not included in the SRA Metadata will be ignored. If you intend to include these files in your SRA submission, return to the SRA Metadata step and update their names.
+
+> ***Error: Some files are missing. Upload missing files or fix metadata table***
+
+**Problem**
+
+The program does not find all files listed in the SRA Metadata table in your submission folder.
+
+**Solution**
+
+Upload files that are reported missing. Also, check that filenames listed in your metadata table include file extensions (.fq, .fastq, .sff, etc.) and are indeed those that you have uploaded (sometimes, differences are very subtle and difficult to detect). In the latter case, go back to the SRA Metadata tab, delete your metadata file and upload a new one with the correct filenames. Click “Continue”. 
+
+> ***Error: File <filename> is corrupted. Please re-upload the file...***
+
+**Problem**
+This Error occurs either because you have corrupt files on your side or the files became corrupted during transfer. 
+
+**Solution**
+	
+Re-upload the files that were reported corrupt. For this, click the Fix button and follow the instructions. The filenames must be the same. Before re-uploading, please check the files for integrity on your side. If the gzip utility reported an error, please find and upload an uncorrupted version of this file before proceeding. If the file is OK, please re-upload it.
+	
+#### Step 8. Review and Submit <a name="review"></a>
+	
+At this step you get to review your submission's summary and make sure that everything is correct. You can still return to and change any step of your submission at this stage by clicking on the corresponding tabs at the top.
+	
+<img src=".\First time upload images\submission-finished.png">
+	
+Click ***Submit*** when you are sure everything is correct. After submitting, future changes to the BioProject are limited or can only be achieved by contacting NCBI's service desk.
+	
+If, on the other hand, you want to delete the whole submission click ***Delete submission***. This is the only opportunity you will get for deleting the submission without having to email NCBI’s service desk
+	
 ## Accessing an unfinished submission <a name="unfinished"></a>
 The first paragraph text
 
