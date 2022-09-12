@@ -1,23 +1,5 @@
 # Submitting 16S rRNA sequence data to the National Library of Medicine (NCBI) 
 
-**Authors:** María José Álvarez Blanco & Stephanie Jurburg
-<br />
-<br />
-**Contact MICODA Team:** <contact.micoda@gmail.com>
-<br />
-<br />
-**Associated institutions:**
-<br />
-<br />
-<br />
-<img src=".\First time upload images\logo MiCoDa empty.png" width=30% height=30%>
-<br />
-<br />
-<img src=".\First time upload images\iDivLogo-short.png" width=30% height=30%>
-<br />
-<br />
-<img src=".\First time upload images\ufz_logo.png" width=35% height=35%>
-<br />
 ## Table of content
 
 1. [Registering to NCBI](#registering)
