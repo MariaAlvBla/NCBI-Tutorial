@@ -324,7 +324,7 @@ The marked elements are:
 
 - **Sample (SRS#)**: identifier of a sample of sequence data.
 
-- **Run (SRR#)**: identifier of the data file(s) derived from sequencing a library described by the associated EXPERIMENT.
+- **Run (SRR#)**: identifier of the data file(s) derived from sequencing a library described by the associated Experiment.
 
 ## Changing a submission<a name="changing"></a>
 
