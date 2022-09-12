@@ -21,4 +21,4 @@
 
 The Datathon is an event focused on the collection and archiving of massive sequencing data of the 16S rRNA gene, and its purpose is the generation of a database of microbiomes from different regions of the world. To facilitate the sharing of data we have created two tutorials: one for [people that still need to submit the data to the Portal of the National Library of Medicine (NCBI)](/NCBI-Tutorial/Submitting data to NCBI.md), and a second one for [people that already deposited the data in NCBI and want to share their submitted data](/NCBI-Tutorial/Sharing already uploaded data). 
 
-[people that still need to submit the data to the Portal of the National Library of Medicine (NCBI)](/NCBI-Tutorial/Submitting data to NCBI.md)
+[pibrary of Medicine (NCBI)](/NCBI-Tutorial/Submitting data to NCBI.md)
