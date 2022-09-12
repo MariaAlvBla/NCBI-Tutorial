@@ -1,4 +1,4 @@
-# Submitting 16S rRNA sequence data to the National Library of Medicine (NCBI) for the first time
+# Submitting 16S rRNA sequence data to the National Library of Medicine (NCBI) 
 
 **Authors:** María José Álvarez Blanco & Stephanie Jurburg
 <br />
