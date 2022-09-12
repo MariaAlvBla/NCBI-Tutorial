@@ -366,7 +366,7 @@ After the **Run** is fully loaded, neither its files can be replaced, nor filena
 
 As we have seen, NCBI supports the inclusion of exhaustive metadata when uploading data. Unfortunatly, it's not so easy to download all the files of a BioSample or BioProject in one go, you would usually have to dowload the Experiments one by one. For this reason, for downloading all data corresponding to an specific accession number, we recommend using the portal from the European Bioinformatics Institute  as part of the European Molecular Biology Laboratory [**(EMBL-EBI)**](https://www.ebi.ac.uk/). For this you would have to follow the next steps:
 
-1. Access [**EMBL-EBI's homepage**(https://www.ebi.ac.uk/)]
+1. Access [**EMBL-EBI's homepage**](https://www.ebi.ac.uk/)
 
 2. Write the accession code of the BioProject, BioSample or SRA you are interested in, and click ***Search***.
 
