@@ -1,5 +1,9 @@
 # Submitting 16S rRNA sequence data to the National Library of Medicine (NCBI) 
 
+Submitting data to the Portal of the National Library of Medicine (NCBI) may seem daunting for first-time users or even researchers who have already submitted some data. Unfortunately, the instructions for submitting are scattered on different “helping guides” on the website, and every time you want to submit data, you must navigate several of those guides to any questions you may have. This might have dissuaded many scientists from using NCBI’s Portal to deposit their sequences and, therefore, hindered the sharing of data for regional or large-scale analysis.
+
+In this instructive we aim to compile and summarize the “help information” written in NCBI’s portal more comprehensively and provide a step-to-step guide on how to carry essential tasks in NCBI. We have focused this instructive on the deposition of S16 rRNA’s sequences due to the nature of the Datathon, but many of the explained steps apply to other kinds of genetic data. We hope this instructive will forward the collaboration efforts of microbiome researchers and that it will help any young researchers interested in the field.
+
 ## Table of content
 
 1. [Registering to NCBI](#registering)
