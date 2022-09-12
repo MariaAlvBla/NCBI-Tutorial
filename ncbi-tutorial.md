@@ -46,6 +46,8 @@
 		2. [Public display and searchable elements of a SRA Experiment](#publicsra)
 6. [Changing a submission](#changing)
 7. [Downloading data](#dowloading)
+	1.[Downloading data corresponding to one accession number](#dowloadingone#)
+	2.[Downloading data corresponding to several accession numbers](#dowloadingmore)
 
 ## Registering to NCBI <a name="registering"></a>
 
@@ -358,11 +360,13 @@ A Submission represents a discrete act of depositing data (a transaction). The s
 
 After the **Run** is fully loaded, neither its files can be replaced, nor filenames can be changed. You will have to submit new files in a separate submission using [existing BioProject and BioSample accessions](#general) and request withdrawal of the **Run** containing the old files.
 
-## Downloading data<a name="dowloading"></a>
+## Downloading data<a name="dowloading"></a>	
+	
+# Downloading data corresponding to one accession number<a name="dowloadingone"></a>
 
-As we have seen, NCBI supports the inclusion of exhaustive metadata when uploading data. Unfortunatly, it's not so easy to download all the files of a BioSample or BioProject in one go, you would usually have to dowload the Experiments one by one. For this reason, for downloading data in bulk, we recommend using the portal from the European Bioinformatics Institute  as part of the European Molecular Biology Laboratory [**(EMBL-EBI)**](https://www.ebi.ac.uk/). For this you would have to follow the next steps:
+As we have seen, NCBI supports the inclusion of exhaustive metadata when uploading data. Unfortunatly, it's not so easy to download all the files of a BioSample or BioProject in one go, you would usually have to dowload the Experiments one by one. For this reason, for downloading all data corresponding to an specific accession number, we recommend using the portal from the European Bioinformatics Institute  as part of the European Molecular Biology Laboratory [**(EMBL-EBI)**](https://www.ebi.ac.uk/). For this you would have to follow the next steps:
 
-1. Access[**EMBL-EBI's homepage**(https://www.ebi.ac.uk/)
+1. Access [**EMBL-EBI's homepage**(https://www.ebi.ac.uk/)]
 
 2. Write the accession code of the BioProject, BioSample or SRA you are interested in, and click ***Search***.
 
@@ -377,5 +381,10 @@ As we have seen, NCBI supports the inclusion of exhaustive metadata when uploadi
 5. Click ***Download All*** if you want to dowload all the **Experiments (SRR)** under this accession number. If you want to dowload only specific Experiments, select the corresponding check-boxes and click ***Download selected files***
 
 <img src=".\First time upload images\ebi-download-scroll.png">
+	
+# Downloading data corresponding to several accession numbers<a name="dowloadingmore"></a>
+
+To download large amounts of data we recommend you use [**NCBI’s command line tools**] (https://www.ncbi.nlm.nih.gov/home/download/). 
+
 
 
