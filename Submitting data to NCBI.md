@@ -30,7 +30,7 @@
 		3. [Step 3. Project (BioProject) information](#bioproject)
 		4. [Step 4. BioSample type](#biotype)
 		5. [Step 5. BioSample attributes](#bioattributes)
-			1. [Possible Errors at this step](#errors1)
+			1.[Possible Errors at this step](#errors1)
 		6. [Step 6. SRA Metadata](#metadata)
 			1. [Recommendations to avoid common errors when submitting SRA metadata](#avoiderrors)
 			2. [Submitting in new BioSamples vs submitting to already existing ones](#newvs)
