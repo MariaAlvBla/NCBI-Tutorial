@@ -46,8 +46,8 @@
 		2. [Public display and searchable elements of a SRA Experiment](#publicsra)
 6. [Changing a submission](#changing)
 7. [Downloading data](#dowloading)
-	1.[Downloading data corresponding to one accession number](#dowloadingone#)
-	2.[Downloading data corresponding to several accession numbers](#dowloadingmore)
+	1. [Downloading data corresponding to one accession number](#dowloadingone#)
+	2. [Downloading data corresponding to several accession numbers](#dowloadingmore)
 
 ## Registering to NCBI <a name="registering"></a>
 
