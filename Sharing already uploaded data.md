@@ -5,13 +5,16 @@ Whenever data has been submitted, NCBI can create a summary table of the attribu
 For the Datathon we have created a custom table with fixed values for some categories that are essential for large scale analysis. By following this homogenized format is easier for researcher to share and combine their data. This tutorial will guide you on how to access and transform the tables given by NCBI to the homogenized format we propose.
 
 ## Table of contents
-1. [Accessing a BioProject](#accessing)
+1. [Accessing the genetic data associated to a BioProject](#accessing)
   1. [By searching the accession code](#searching)
   2. [By tracking it in "my submissions"](#tracking)
+2. [Downloading the summary table of a BioProject or a BioSample](#summary)
   
-## Accessing a BioProject <a name="accessing"></a>
+## Accessing the genetic data associated to a BioProject <a name="accessing"></a>
 
-Accessing a **BioProject** can be achieved by two paths: one if you [**remember the accession code**](#searching) and one in which you [**don't remember it**](#tracking). Please select the option that better suits your case. 
+When you want to access the genetic data of either an entire **BioProject** or a specific **BioSample** within a BioProject, you always have to access the BioProject containing the data first. From the BioProject you can choose to access all the **Experiments** of the BioProject or the BioSample, this will be further explained in [the section about downloading the summary table](#summary).
+
+Accessing the data associated to a **BioProject** can be achieved by two paths: one if you [**remember the accession code**](#searching) and one in which you [**don't remember it**](#tracking). Please select the option that better suits your case. 
 
 ### By searching the accession code <a name="searching"></a>
 
@@ -28,6 +31,8 @@ To find the public display of the genetic data of your **BioProject** follow the
 3. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the number on the right side of ***SRA Experiments*** 
 
 <img src=".\Sharing already uploaded data images\bioproject-public.png">
+
+The explanation continues in the section [**Downloading the BioProject's summary table**](#summary)
 
 ### By tracking it in "my submissions" <a name="tracking"></a>
 
@@ -47,6 +52,25 @@ To find the public display of the genetic data of your **BioProject** follow the
 
 <img src=".\Sharing already uploaded data images\my-submissions.png">
 
+5. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the number on the right side of ***SRA Experiments*** 
+
+<img src=".\Sharing already uploaded data images\bioproject-public.png">
+
+The explanation continues in the section [**Downloading the BioProject's summary table**](#summary)
+
+## Downloading the summary table of a BioProject or a BioSample <a name="summary"></a>
+
+Follow the next steps to access and download the summary table of the attribute and metadata information of all the genetic data included in a BioProject.
+
+1. Click at the name of any of the **Experiments** displayed after having accessed the **SRA Experiments** in the previous section.
+
+<img src=".\Sharing already uploaded data images\click-experiment.png">
+
+2. At the public display of the **Experiment** click ***All Runs*** for either the **BioProject (A)** or the **BioSample (B)** you are interested in. If you select the Runs of the BioSample, the summary table will include the information of the selected experiment as well as any other experiments included in the same BioSample.
+
+<img src=".\Sharing already uploaded data images\all-runs.png">
+
+3. 
 
 When people finish a submission you can download an excel that includes metadata and attribute information. We want the people that already uploaded data to copy and paste their information to our own version of the merged excel file that will also have the drop-down menus from the other excel files.
 Just tell them:
