@@ -13,7 +13,7 @@ For the Datathon we have created a custom table with fixed values for some categ
   
 ## Accessing the genetic data associated to a BioProject <a name="accessing"></a>
 
-When you want to access the genetic data of either an entire **BioProject** or a specific **BioSample** within a BioProject, you always have to access the BioProject containing the data first. From the BioProject you can choose to access all the **Experiments** of the BioProject or the BioSample, this will be further explained in [the section about downloading the summary table](#summary).
+When you want to access the genetic data of either an entire **BioProject** or a specific **BioSample within a BioProject**, you always have to access the BioProject containing the data first. From the BioProject you can choose to access all the **Experiments** of either the BioProject or the BioSample, this will be further explained in [**the section about downloading the summary table**](#summary).
 
 Accessing the data associated to a **BioProject** can be achieved by two paths: one if you [**remember the accession code**](#searching) and one in which you [**don't remember it**](#tracking). Please select the option that better suits your case. 
 
@@ -29,17 +29,17 @@ To find the public display of the genetic data of your **BioProject** follow the
 
 <img src=".\Sharing already uploaded data images\select-bioproject.png">
 
-3. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the number on the right side of ***SRA Experiments*** 
+3. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments*** 
 
 <img src=".\Sharing already uploaded data images\bioproject-public.png">
 
-The explanation continues in the section [**Downloading the BioProject's summary table**](#summary)
+The explanation continues in the section [**Downloading the BioProject's summary table**](#summary).
 
 ### By tracking it in "my submissions" <a name="tracking"></a>
 
 To find the public display of the genetic data of your **BioProject** follow the next steps:
 
-1. While being logged in, go to [**access NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
+1. While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
 
 2. Click ***Submit***
 
@@ -49,11 +49,11 @@ To find the public display of the genetic data of your **BioProject** follow the
 
 <img src=".\Sharing already uploaded data images\portal-submissions.png" width=80% height=80%>
 
-4. Find the submission with the title corresponding to the BioProject you are looking for and click the accession code (PRJNA#).
+4. Find the submission with the title corresponding to the BioProject you are looking for and click the accession code **(PRJNA#)**.
 
 <img src=".\Sharing already uploaded data images\my-submissions.png">
 
-5. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the number on the right side of ***SRA Experiments*** 
+5. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments***
 
 <img src=".\Sharing already uploaded data images\bioproject-public.png">
 
@@ -61,7 +61,7 @@ The explanation continues in the section [**Downloading the BioProject's summary
 
 ## Downloading the summary table of a BioProject or a BioSample <a name="summary"></a>
 
-Follow the next steps to access and download the summary table of the attribute and metadata information of all the genetic data included in a BioProject.
+Follow the next steps to access and download the summary table of the attribute and metadata information of all the genetic data included in a BioProject or BioSample.
 
 1. Click at the name of any of the **Experiments** displayed after having accessed the **SRA Experiments** in the previous section.
 
@@ -82,7 +82,7 @@ Alternatively you can download specific **Runs** by checking on the boxes corres
 
 ## Filling in the Datathon's customized excel table <a name="filling"></a>
 
-If you followed the steps in the [previous section](#summary), you would now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, you need to open it with Open Office Calc, or Excel.
+If you followed the steps in the [previous section](#summary), you would now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, open it with **Open Office Calc** or **Excel**.
 
 
 
