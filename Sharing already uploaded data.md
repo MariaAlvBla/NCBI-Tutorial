@@ -9,6 +9,7 @@ For the Datathon we have created a custom table with fixed values for some categ
   1. [By searching the accession code](#searching)
   2. [By tracking it in "my submissions"](#tracking)
 2. [Downloading the summary table of a BioProject or a BioSample](#summary)
+3. [Filling in the Datathon's customized excel table](#filling)
   
 ## Accessing the genetic data associated to a BioProject <a name="accessing"></a>
 
@@ -70,7 +71,20 @@ Follow the next steps to access and download the summary table of the attribute 
 
 <img src=".\Sharing already uploaded data images\all-runs.png">
 
-3. 
+3. To download all the runs contained in the BioProject or BioSample, click on ***Metadata*** 
+at the the **Total** option.
+
+<img src=".\Sharing already uploaded data images\download-all-metadata.png">
+
+Alternatively you can download specific **Runs** by checking on the boxes corresponding to the runs you want to download, and clicking on ***Metadata*** at the the **Selected** option.
+
+<img src=".\Sharing already uploaded data images\download-some-metadata.png">
+
+## Filling in the Datathon's customized excel table <a name="filling"></a>
+
+If you followed the steps in the [previous section](#summary), you would now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, you need to open it with Open Office Calc, or Excel.
+
+
 
 When people finish a submission you can download an excel that includes metadata and attribute information. We want the people that already uploaded data to copy and paste their information to our own version of the merged excel file that will also have the drop-down menus from the other excel files.
 Just tell them:
