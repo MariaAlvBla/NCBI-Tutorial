@@ -47,7 +47,7 @@ To find the public display of the genetic data of your **BioProject** follow the
 
 3. At the Submission Portal click on ***My submissions***.
 
-<img src=".\Sharing already uploaded data images\portal-submissions.png" width=80% height=80%>
+<img src=".\Sharing already uploaded data images\portal-submissions.png">
 
 4. Find the submission with the title corresponding to the BioProject you are looking for and click the accession code **(PRJNA#)**.
 
