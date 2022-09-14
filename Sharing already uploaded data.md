@@ -1,21 +1,21 @@
-# Sharing data that has already been uploaded to NCBI
+# Sharing data that has already been uploaded to NCBI's SRA
 
-Whenever data has been submitted, NCBI can create a summary table of the attribute and metadata information of all the genetic data included in a BioProject or BioSample. The problem with this table is that many of the fields don't need to follow a consistent format in order to be submitted to NCBI. For example, the word amplicon can be written as *amplicon*, *Amplicon* or *AMPLICON*. This can signify a problem when wanting to combine the summary data of several projects in which the authors wrote the values differently. It hinders large scale analyses of genetic data.
+Once data is archived, NCBI's SRA creates summary metadata table of the sample metadata (e.g., the sample's geographic location and sample type) and technical metadata (e.g., the sequencer used) for all samples in that BioProject or BioSample. As there are no standard nomenclatures for many of these fields, integrating metadata from different projects is difficult. For example, the word amplicon can be written as *amplicon*, *Amplicon* or *AMPLICON*, and this creates a problem when combining  several projects where the meaning of these values is identical, but they are named differently, hindering the large scale analysis of genetic data.
 
-For the Datathon we have created a custom table with fixed values for some categories that are essential for large scale analysis. By following this homogenized format is easier for researcher to share and combine their data. This tutorial will guide you on how to access and transform the tables given by NCBI to the homogenized format we propose.
+For the Datathon, we have created a custom table with fixed nomenclatures for categories that are essential for large scale analysis. Following this standard nomenclature facilitates the sharing and combining of data by researchers. *This tutorial will guide users on how to access and transform existing NCBI SRA metadata tables to this standard nomenclature.
 
 ## Table of contents
-1. [Accessing the genetic data associated to a BioProject](#accessing)
+1. [Accessing the metadata associated to a BioProject](#accessing)
   1. [By searching the accession code](#searching)
   2. [By tracking it in "my submissions"](#tracking)
 2. [Downloading the summary table of a BioProject or a BioSample](#summary)
 3. [Filling in the Datathon's customized excel table](#filling)
   
-## Accessing the genetic data associated to a BioProject <a name="accessing"></a>
+## Accessing the metadata associated to a BioProject <a name="accessing"></a>
 
-When you want to access the genetic data of either an entire **BioProject** or a specific **BioSample within a BioProject**, you always have to access the BioProject containing the data first. From the BioProject you can choose to access all the **Experiments** of either the BioProject or the BioSample, this will be further explained in [**the section about downloading the summary table**](#summary).
+To access the genetic data of either an entire **BioProject** or a specific **BioSample within a BioProject**, one must access the BioProject containing the data first. From the BioProject, one can choose to access all the **Experiments** of either the BioProject or the BioSample, this will be further explained below ([**jump to downloading the summary table**](#summary)).
 
-Accessing the data associated to a **BioProject** can be achieved by two paths: one if you [**remember the accession code**](#searching) and one in which you [**don't remember it**](#tracking). Please select the option that better suits your case. 
+Accessing the data associated to a **BioProject** can be achieved in two ways: 1) if you [**remember the accession code**](#searching) and 2) if you [**don't remember it**](#tracking). Please select the option that better suits your case. 
 
 ### By searching the accession code <a name="searching"></a>
 
@@ -25,15 +25,15 @@ To find the public display of the genetic data of your **BioProject** follow the
 
 <img src=".\Sharing already uploaded data images\search-accession.png">
 
-2. Click on the BioProject you are looking for from the displayed list.
+2. Click on the correct BioProject in the displayed list.
 
 <img src=".\Sharing already uploaded data images\select-bioproject.png">
 
-3. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments*** 
+3. The BioProject's public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments*** 
 
 <img src=".\Sharing already uploaded data images\bioproject-public.png">
 
-The explanation continues in the section [**Downloading the BioProject's summary table**](#summary).
+Jump to [**Downloading the BioProject's summary table**](#summary).
 
 ### By tracking it in "my submissions" <a name="tracking"></a>
 
@@ -57,17 +57,17 @@ To find the public display of the genetic data of your **BioProject** follow the
 
 <img src=".\Sharing already uploaded data images\bioproject-public.png">
 
-The explanation continues in the section [**Downloading the BioProject's summary table**](#summary)
+Jump to [**Downloading the BioProject's summary table**](#summary)
 
 ## Downloading the summary table of a BioProject or a BioSample <a name="summary"></a>
 
-Follow the next steps to access and download the summary table of the attribute and metadata information of all the genetic data included in a BioProject or BioSample.
+Follow these steps to access and download the summary table of the attribute and metadata information of all the genetic data included in a BioProject or BioSample.
 
 1. Click at the name of any of the **Experiments** displayed after having accessed the **SRA Experiments** in the previous section.
 
 <img src=".\Sharing already uploaded data images\click-experiment.png">
 
-2. At the public display of the **Experiment** click ***All Runs*** for either the **BioProject (A)** or the **BioSample (B)** you are interested in. If you select the Runs of the BioSample, the summary table will include the information of the selected experiment as well as any other experiments included in the same BioSample.
+2. At the public display of the **Experiment** click ***All Runs*** for either the **BioProject** or the **BioSample** you are interested in. If you select the Runs of the BiopProject or BioSample, the summary table will include the information of the selected experiment as well as any other experiments included in the same BioProject or BioSample.
 
 <img src=".\Sharing already uploaded data images\all-runs.png">
 
@@ -82,5 +82,5 @@ Alternatively you can download specific **Runs** by checking on the boxes corres
 
 ## Filling in the Datathon's customized excel table <a name="filling"></a>
 
-If you followed the steps in the [previous section](#summary), you would now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, open it with **Open Office Calc** or **Excel**.
+If you followed the steps in the [previous section](#summary), you will now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, open it with software such as  **Open Office Calc**,  **Google Sheets**, or **Excel**.
 
