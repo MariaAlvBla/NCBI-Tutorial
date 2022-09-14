@@ -5,9 +5,10 @@ Once data is archived, NCBI's SRA creates summary metadata table of the sample m
 For the Datathon, we have created a custom table with fixed nomenclatures for categories that are essential for large scale analysis. Following this standard nomenclature facilitates the sharing and combining of data by researchers. *This tutorial will guide users on how to access and transform existing NCBI SRA metadata tables to this standard nomenclature.
 
 ## Table of contents
+
 1. [Accessing the metadata associated to a BioProject](#accessing)
-  1. [By searching the accession code](#searching)
-  2. [By tracking it in "my submissions"](#tracking)
+	1. [By searching the accession code](#searching)
+	2. [By tracking it in "my submissions"](#tracking)
 2. [Downloading the summary table of a BioProject or a BioSample](#summary)
 3. [Filling in the Datathon's customized excel table](#filling)
   
@@ -21,7 +22,7 @@ Accessing the data associated to a **BioProject** can be achieved in two ways: 1
 
 To find the public display of the genetic data of your **BioProject** follow the next steps:
 
-1. [**Access NCBI's homepage**](https://www.ncbi.nlm.nih.gov/) and write the **accession code** of the BioProject **(PRJNA#)** you are looking for.
+1. [**Access NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/) and write the **accession code** of the BioProject **(PRJNA#)** you are looking for.
 
 <img src=".\Sharing already uploaded data images\search-accession.png">
 
@@ -39,7 +40,7 @@ Jump to [**Downloading the BioProject's summary table**](#summary).
 
 To find the public display of the genetic data of your **BioProject** follow the next steps:
 
-1. While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
+1. While being logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
 
 2. Click ***Submit***
 
