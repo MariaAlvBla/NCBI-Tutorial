@@ -51,7 +51,7 @@ Follow the next steps:
 
 For accessing the Sequence Read Archive (SRA) follow the next steps:
 
-1. While being logged in, [**Access NCBI's homepage**](https://www.ncbi.nlm.nih.gov/). ***write 16S rRNA*** 
+1. While being logged in, [**Access NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/). ***write 16S rRNA*** 
 
 2. Click ***Submit***.
 
@@ -257,7 +257,7 @@ If, on the other hand, you want to delete the whole submission click ***Delete s
 
 Follow the next steps:
 
-1. While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
+1. While being logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
 
 2. Click ***Submit***
 
@@ -316,7 +316,7 @@ The marked elements are:
 
 Follow the next steps:
 
-1. While being logged in, go to [**NCBI's homepage**](https://www.ncbi.nlm.nih.gov/).
+1. While being logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
 
 2.  Click ***Submit***
 
@@ -350,9 +350,9 @@ After the **Run** is fully loaded, neither its files can be replaced, nor filena
 	
 # Downloading data corresponding to one accession number<a name="dowloadingone"></a>
 
-As we have seen, NCBI supports the inclusion of exhaustive metadata when uploading data. Unfortunatly, it's not so easy to download all the files of a BioSample or BioProject in one go, you would usually have to dowload the Experiments one by one. For this reason, for downloading all data corresponding to an specific accession number, we recommend using the portal from the European Bioinformatics Institute  as part of the European Molecular Biology Laboratory [**(EMBL-EBI)**](https://www.ebi.ac.uk/). For this you would have to follow the next steps:
+As we have seen, NCBI supports the inclusion of exhaustive metadata when uploading data. Unfortunatly, it's not so easy to download all the files of a BioSample or BioProject in one go, you would usually have to dowload the Experiments one by one. For this reason, for downloading all data corresponding to an specific accession number, we recommend using the portal from the European Bioinformatics Institute  as part of the European Molecular Biology Laboratory [**(EMBL-EBI)**](https://external.ink?to=https://www.ebi.ac.uk/). For this you would have to follow the next steps:
 
-1. Access [**EMBL-EBI's homepage**](https://www.ebi.ac.uk/)
+1. Access [**EMBL-EBI's homepage**](https://external.ink?to=https://www.ebi.ac.uk/)
 
 2. Write the accession code of the BioProject, BioSample or SRA you are interested in, and click ***Search***.
 
