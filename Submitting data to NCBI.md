@@ -370,7 +370,7 @@ As we have seen, NCBI supports the inclusion of exhaustive metadata when uploadi
 	
 # Downloading data corresponding to several accession numbers<a name="dowloadingmore"></a>
 
-To download large amounts of SRA data we recommend you use the [**SRA Toolkit**](https://github.com/ncbi/sra-tools/wiki).
+To download large amounts of SRA data we recommend you use the [**SRA Toolkit**](https://external.ink?to=https://github.com/ncbi/sra-tools/wiki).
 
 
 
