@@ -83,5 +83,10 @@ Alternatively you can download specific **Runs** by checking on the boxes corres
 
 ## Filling in the Datathon's customized excel table <a name="filling"></a>
 
-If you followed the steps in the [previous section](#summary), you will now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, open it with software such as  **Open Office Calc**,  **Google Sheets**, or **Excel**.
+If you followed the steps in the [previous section](#summary), you will now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, open it with software such as  **Open Office Calc**, or **Excel**.
 
+When using **Open Office Calc** you need to check the settings of the **Separator Options** to avoid the shifting of the column's values.
+
+In the following picture the settings are wrong and the columns that had values with spaces on them have been separated and shifted to the right. Instead of *University of Copenhagen* in one cell it has been splitted between three columns:
+
+<img src=".\Sharing already uploaded data images\wrong-setting.png">
