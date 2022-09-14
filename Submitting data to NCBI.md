@@ -39,7 +39,7 @@ In this instructive we aim to compile and summarize the “help information” w
 
 Follow the next steps:
 
-1. [**Access NCBI's homepage**](https://www.ncbi.nlm.nih.gov/){:target="_blank"} and click ***Log in***.
+1. [**Access NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/) and click ***Log in***.
 
 <img src=".\First time upload images\home-login.png">
 
