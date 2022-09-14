@@ -21,7 +21,7 @@ To facilitate the sharing of data we have created two tutorials:
 [<img src=".\First time upload images\logo MiCoDa empty.png" width=30% height=30%/>](https://micoda.idiv.de/)<br/>
 MiCoDa: the Microbial Community Database
 <br /><br/>
-[<img src=".\First time upload images\iDivLogo-short.png" width=30% height=30%/>](https://idiv.de/)<br/>
+[<img src=".\First time upload images\iDivLogo-short.png" width=30% height=30%/>](https://www.idiv.de/en)<br/>
 German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig
 <br /><br/>
 [<img src=".\First time upload images\ufz_logo.png" width=35% height=35%/>](https://www.ufz.de/)<br/>
