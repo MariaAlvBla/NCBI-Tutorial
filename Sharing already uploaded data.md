@@ -4,29 +4,37 @@ Once data is archived, NCBI's SRA creates summary metadata table of the sample m
 
 For the Datathon, we have created a custom table with fixed nomenclatures for categories that are essential for large scale analysis. Following this standard nomenclature facilitates the sharing and combining of data by researchers. *This tutorial will guide users on how to access and transform existing NCBI SRA metadata tables to this standard nomenclature.
 
-## Table of contents
+>## Table of contents
+<br />
 
 1. [Accessing the metadata associated to a BioProject](#accessing)
 	1. [By searching the accession code](#searching)
 	2. [By tracking it in "my submissions"](#tracking)
 2. [Downloading the summary table of a BioProject or a BioSample](#summary)
 3. [Filling in the Datathon's customized excel table](#filling)
+<br />
   
-## Accessing the metadata associated to a BioProject <a name="accessing"></a>
+>## Accessing the metadata associated to a BioProject <a name="accessing"></a>
+<br />
 
 To access the genetic data of either an entire **BioProject** or a specific **BioSample within a BioProject**, one must access the BioProject containing the data first. From the BioProject, one can choose to access all the **Experiments** of either the BioProject or the BioSample, this will be further explained below ([**jump to downloading the summary table**](#summary)).
 
 Accessing the data associated to a **BioProject** can be achieved in two ways: 1) if you [**remember the accession code**](#searching) and 2) if you [**don't remember it**](#tracking). Please select the option that better suits your case. 
 
-### By searching the accession code <a name="searching"></a>
+<br />
+
+>### By searching the accession code <a name="searching"></a>
+<br />
 
 To find the public display of the genetic data of your **BioProject** follow the next steps:
-
+<br />
+<br />
+____
 1. [**Access NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/) and write the **accession code** of the BioProject **(PRJNA#)** you are looking for.
-
+<br />
 <img src=".\Sharing already uploaded data images\search-accession.png">
 
-2. Click on the correct BioProject in the displayed list.
+>2. Click on the correct BioProject in the displayed list.
 
 <img src=".\Sharing already uploaded data images\select-bioproject.png">
 
