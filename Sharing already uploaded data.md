@@ -41,60 +41,100 @@ ____
 <br />
 <img src=".\Sharing already uploaded data images\select-bioproject.png">
 
-3. The BioProject's public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments*** 
+<br />
 
+____
+3. The BioProject's public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments*** 
+<br />
 <img src=".\Sharing already uploaded data images\bioproject-public.png">
 
-Jump to [**Downloading the BioProject's summary table**](#summary).
+<br />
 
-### By tracking it in "my submissions" <a name="tracking"></a>
+
+Jump to [**Downloading the BioProject's summary table**](#summary).
+<br />
+
+>### By tracking it in "my submissions" <a name="tracking"></a>
 <br />
 
 To find the public display of the genetic data of your **BioProject** follow the next steps:
-
+<br />
+<br />
+____
 1. While being logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
-
+<br />
+<br />
+____
 2. Click ***Submit***
-
+<br />
 <img src=".\Sharing already uploaded data images\home-submit.png">
 
-3. At the Submission Portal click on ***My submissions***.
+<br />
 
+____
+3. At the Submission Portal click on ***My submissions***.
+<br />
 <img src=".\Sharing already uploaded data images\portal-submissions.png">
 
-4. Find the submission with the title corresponding to the BioProject you are looking for and click the accession code **(PRJNA#)**.
+<br />
 
+____
+4. Find the submission with the title corresponding to the BioProject you are looking for and click the accession code **(PRJNA#)**.
+<br />
 <img src=".\Sharing already uploaded data images\my-submissions.png">
 
-5. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments***
+<br />
 
+____
+5. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments***
+<br />
 <img src=".\Sharing already uploaded data images\bioproject-public.png">
+
+<br />
+
 
 Jump to [**Downloading the BioProject's summary table**](#summary)
 
-## Downloading the summary table of a BioProject or a BioSample <a name="summary"></a>
+<br />
+
+
+>## Downloading the summary table of a BioProject or a BioSample <a name="summary"></a>
 <br />
 
 Follow these steps to access and download the summary table of the attribute and metadata information of all the genetic data included in a BioProject or BioSample.
-
+<br />
+<br />
+____
 1. Click at the name of any of the **Experiments** displayed after having accessed the **SRA Experiments** in the previous section.
-
+<br />
 <img src=".\Sharing already uploaded data images\click-experiment.png">
 
-2. At the public display of the **Experiment** click ***All Runs*** for either the **BioProject** or the **BioSample** you are interested in. If you select the Runs of the BiopProject or BioSample, the summary table will include the information of the selected experiment as well as any other experiments included in the same BioProject or BioSample.
+<br />
 
+____
+2. At the public display of the **Experiment** click ***All Runs*** for either the **BioProject** or the **BioSample** you are interested in. If you select the Runs of the BiopProject or BioSample, the summary table will include the information of the selected experiment as well as any other experiments included in the same BioProject or BioSample.
+<br />
 <img src=".\Sharing already uploaded data images\all-runs.png">
 
+<br />
+
+____
 3. To download all the runs contained in the BioProject or BioSample, click on ***Metadata*** 
 at the the **Total** option.
-
+<br />
 <img src=".\Sharing already uploaded data images\download-all-metadata.png">
 
-Alternatively you can download specific **Runs** by checking on the boxes corresponding to the runs you want to download, and clicking on ***Metadata*** at the the **Selected** option.
+<br />
 
+____
+Alternatively you can download specific **Runs** by checking on the boxes corresponding to the runs you want to download, and clicking on ***Metadata*** at the the **Selected** option.
+<br />
 <img src=".\Sharing already uploaded data images\download-some-metadata.png">
 
-## Filling in the Datathon's customized excel table <a name="filling"></a>
+<br />
+
+
+>## Filling in the Datathon's customized excel table <a name="filling"></a>
 <br />
 
 If you followed the steps in the [previous section](#summary), you will now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, open it with software such as  **Open Office Calc**, or **Excel**.
