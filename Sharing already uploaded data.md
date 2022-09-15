@@ -34,8 +34,11 @@ ____
 <br />
 <img src=".\Sharing already uploaded data images\search-accession.png">
 
->2. Click on the correct BioProject in the displayed list.
+<br />
 
+____
+2. Click on the correct BioProject in the displayed list.
+<br />
 <img src=".\Sharing already uploaded data images\select-bioproject.png">
 
 3. The BioProject's public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments*** 
@@ -45,6 +48,7 @@ ____
 Jump to [**Downloading the BioProject's summary table**](#summary).
 
 ### By tracking it in "my submissions" <a name="tracking"></a>
+<br />
 
 To find the public display of the genetic data of your **BioProject** follow the next steps:
 
@@ -69,6 +73,7 @@ To find the public display of the genetic data of your **BioProject** follow the
 Jump to [**Downloading the BioProject's summary table**](#summary)
 
 ## Downloading the summary table of a BioProject or a BioSample <a name="summary"></a>
+<br />
 
 Follow these steps to access and download the summary table of the attribute and metadata information of all the genetic data included in a BioProject or BioSample.
 
@@ -90,6 +95,7 @@ Alternatively you can download specific **Runs** by checking on the boxes corres
 <img src=".\Sharing already uploaded data images\download-some-metadata.png">
 
 ## Filling in the Datathon's customized excel table <a name="filling"></a>
+<br />
 
 If you followed the steps in the [previous section](#summary), you will now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, open it with software such as  **Open Office Calc**, or **Excel**.
 
