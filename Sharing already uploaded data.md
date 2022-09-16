@@ -52,7 +52,10 @@ ____
 
 
 Jump to [**Downloading the BioProject's summary table**](#summary).
+
+
 <br />
+
 
 >### By tracking it in "my submissions" <a name="tracking"></a>
 <br />
@@ -62,8 +65,9 @@ To find the public display of the genetic data of your **BioProject** follow the
 <br />
 ____
 1. While being logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
+
 <br />
-<br />
+
 ____
 2. Click ***Submit***
 <br />
@@ -128,7 +132,9 @@ at the the **Total** option.
 
 ____
 Alternatively you can download specific **Runs** by checking on the boxes corresponding to the runs you want to download, and clicking on ***Metadata*** at the the **Selected** option.
+
 <br />
+
 <img src=".\Sharing already uploaded data images\download-some-metadata.png">
 
 <br />
@@ -142,5 +148,7 @@ If you followed the steps in the [previous section](#summary), you will now have
 When using **Open Office Calc** you need to check the settings of the **Separator Options** to avoid the shifting of the column's values.
 
 In the following picture the settings are wrong and the columns that had values with spaces on them have been separated and shifted to the right. Instead of *University of Copenhagen* in one cell it has been splitted between three columns:
+
+<br />
 
 <img src=".\Sharing already uploaded data images\wrong-setting.png">
