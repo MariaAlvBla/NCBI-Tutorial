@@ -46,7 +46,7 @@ ____
 ____
 3. The BioProject's public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments*** 
 <br />
-<img src=".\Sharing already uploaded data images\bioproject-public.png">
+<img src=".\Sharing already uploaded data images\bioproject-public.png" width=80% height=80%>
 
 <br />
 
@@ -85,14 +85,14 @@ ____
 ____
 4. Find the submission with the title corresponding to the BioProject you are looking for and click the accession code **(PRJNA#)**.
 <br />
-<img src=".\Sharing already uploaded data images\my-submissions.png">
+<img src=".\Sharing already uploaded data images\my-submissions.png" width=90% height=90%>
 
 <br />
 
 ____
 5. The BioProject public information will be displayed. To find the genetic information related to the BioProject click the ***number on the right of the SRA Experiments***
 <br />
-<img src=".\Sharing already uploaded data images\bioproject-public.png">
+<img src=".\Sharing already uploaded data images\bioproject-public.png" width=80% height=80%>
 
 <br />
 
@@ -118,7 +118,7 @@ ____
 ____
 2. At the public display of the **Experiment** click ***All Runs*** for either the **BioProject** or the **BioSample** you are interested in. If you select the Runs of the BiopProject or BioSample, the summary table will include the information of the selected experiment as well as any other experiments included in the same BioProject or BioSample.
 <br />
-<img src=".\Sharing already uploaded data images\all-runs.png">
+<img src=".\Sharing already uploaded data images\all-runs.png" width=80% height=80%>
 
 <br />
 
@@ -126,7 +126,7 @@ ____
 3. To download all the runs contained in the BioProject or BioSample, click on ***Metadata*** 
 at the the **Total** option.
 <br />
-<img src=".\Sharing already uploaded data images\download-all-metadata.png">
+<img src=".\Sharing already uploaded data images\download-all-metadata.png" width=90% height=90%>
 
 <br />
 
@@ -135,7 +135,7 @@ Alternatively you can download specific **Runs** by checking on the boxes corres
 
 <br />
 
-<img src=".\Sharing already uploaded data images\download-some-metadata.png">
+<img src=".\Sharing already uploaded data images\download-some-metadata.png" width=90% height=90%>
 
 <br />
 
@@ -151,4 +151,4 @@ In the following picture the settings are wrong and the columns that had values 
 
 <br />
 
-<img src=".\Sharing already uploaded data images\wrong-setting.png">
+<img src=".\Sharing already uploaded data images\wrong-setting.png" width=90% height=90%>
