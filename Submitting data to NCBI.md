@@ -3,6 +3,7 @@
 This instructive provides step-to-step instructions to deposit 16S rRNA gene amplicon sequence data.
 
 ## Table of contents
+<br />
 
 1. [Registering to NCBI](#registering)
 2. [Accessing the Sequence Read Archive (SRA)](#accessingsra)
@@ -32,83 +33,158 @@ This instructive provides step-to-step instructions to deposit 16S rRNA gene amp
 7. [Downloading data](#dowloading)
 	1. [Downloading data corresponding to one accession number](#dowloadingone#)
 	2. [Downloading data corresponding to several accession numbers](#dowloadingmore)
+<br />
 
 ## Registering to NCBI <a name="registering"></a>
-
+<br />
+To register to NCBI follow the next steps:
+<br />
+<br />
+____
 1. [**Access NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/) and click ***Log in***.
-
+<br />
 <img src=".\First time upload images\home-login.png">
 
-2. A menu with several lo Login options will be displayed. You can choose whichever you prefer for setting your account.
+<br />
 
+____
+2. A menu with several lo Login options will be displayed. You can choose whichever you prefer for setting your account.
+<br />
 <img src=".\First time upload images\login-options.PNG">
 
+
+<br />
+
+
 ## Accessing the Sequence Read Archive (SRA) <a name="accessingsra"></a>
+<br />
 
 For accessing the Sequence Read Archive (SRA) follow the next steps:
-
+<br />
+<br />
+____
 1. While being logged in, [**Access NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
 
-2. Click ***Submit***.
+<br />
 
+____
+2. Click ***Submit***.
+<br />
 <img src=".\First time upload images\home-submit.png">
 
-3. The main page of the Submission Portal will be displayed. For the occasion of the Datathon, ***write 16S rRNA*** in the search bar and ***click SRA***. 
+<br />
 
+____
+3. The main page of the Submission Portal will be displayed. For the occasion of the Datathon, ***write 16S rRNA*** in the search bar and ***click SRA***. 
+<br />
 <img src=".\First time upload images\portal-submit.png">
  
-4. A webpage with information about the Sequence Read Archive (SRA) will be displayed. SRA specializes in high throughput sequence data, including 16S rRNA gene sequence data.Click ***Submit***.
+<br />
 
+____
+4. A webpage with information about the Sequence Read Archive (SRA) will be displayed. SRA specializes in high throughput sequence data, including 16S rRNA gene sequence data.Click ***Submit***.
+<br />
 <img src=".\First time upload images\sra-submit.png">
 
+
+<br />
+
+
 ## Submitting data to SRA Submission Wizard] <a name="submittingwizard"></a>
+<br />
 
 ### Aspects to consider before submitting data <a name="aspects"></a>
+<br />
 
 - If the data comes from a human study, donor consent is usually necessary.
 
+<br />
+
+
 - Each upload must be kept under 5 TB, if you have more, split the upload across multiple submissions.
+
+<br />
+
 
 - Submissions can be linked to the same BioProject to ensure all data are searchable with a single accession code.
 
+<br />
+
+
 - Every fastq file should be less than 100 GB in size. If compressed files are larger than 100 GB, please split them before submission.
 
-### Submitting data <a name="steps"></a>
+<br />
 
+
+### Submitting data <a name="steps"></a>
+<br />
 This process requires several steps. To save your progress, click ***Continue***. You can review or make changes to your previous steps during submission by clicking on the preceding tabs.  
 
 At any point after having saved your progress, you can leave NCBI and [continue the process of submission later](#unfinished). If, however, you click the ***Submit*** button at the [last step](#review), [making changes will require additional steps](#changing). 
 
 You may get *Error* or *Warning* messages when saving your progress. Error messages describe the Error and suggest a solution that must be corrected before you can move to the next step of your submission. On the other hand, the Warning messages attempt to prevent you from making a possible mistake and do not block you from continuing your submission. 
 
+
+<br />
+
+
 #### Step 1. Submitter <a name="submitter"></a>
 
+<br />
 <img src=".\First time upload images\submitter.png" width=90% height=90%>
 
+<br />
 Here, the data archiver will be asked to include professional information. We recommend using you institutional **e-mail** and writting the information of the **institution** you work for.
 
+
+<br />
+
+
 #### Step 2. General Information <a name="general"></a>
+<br />
 
 <img src=".\First time upload images\general-info.png" width=80% height=80%>
 
+<br />
 The **BioProject** represents the research project from which the dataset originated. The information supplied in the **Biosample** provides context to your experimental data. Every metagenome, time point, tissue type, or treatment type must have its own Biosample; but biological and technical replicates are not unique BioSamples. _If the data you will submit is not linked to any previously submitted data, select **No** for the BioProject and BioSample categories in this step 
 _Note: most often, each sample will also be its own BioSample. If unsure, it is best to have each sample be a separate BioSample
+<br />
 
 <img src=".\First time upload images\diagram.png" width=80% height=80%>
+<br />
+
 
 Depending on your answers at this step, the next steps would follow one of these pathways:
+<br />
+
 
 <img src=".\First time upload images\pathway-map.png" width=80% height=80%>
+<br />
+
 
 The default **release date** is **Release immediately following processing**, but you can select a specific date for releasing your data. If you don’t know the exact data you can change it even after having finished the submission by clicking on the [***Manage tab*** at the Submission Portal](#changing).
 
+
+<br />
+
+
 #### Step 3. Project (BioProject) information<a name="bioproject"></a>
+<br />
 
 <img src=".\First time upload images\bioproject-info.png" width=80% height=80%>
 
+<br />
+
+
 In the **Public description** provide information that best describes your research, which will become the description of your BioProject. If you have an **abstract** or research summary of your research project, you should add it here. Also, we recommend that at **URL** you add the DOI link to any publication of yours that is related to this data. 
 
+
+<br />
+
+
 #### Step 4. BioSample type<a name="biotype"></a>
+<br />
+-------------I need to continue editing from here----------------
 
 In this step, you will select a **Package** that best fits the nature of your Biosample. According to your selected package the Submission Portal will supply you with a customized **attribute table** for the [next step](#bioattributes) that best describes the context of your BioSamples.
 
