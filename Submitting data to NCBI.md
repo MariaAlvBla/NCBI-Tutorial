@@ -209,7 +209,7 @@ The **sample_name** you give each sample in the attribute table will be again us
 >##### Possible Errors at this step <a name="errors1"></a>
 <br />
 
-> ***Error: Multiple BioSamples cannot have identical attributes***
+***Error: Multiple BioSamples cannot have identical attributes***
 <br />
 
 **Problem**
@@ -220,9 +220,10 @@ After filling out values for attributes provided in the template, your individua
 **Solution**
 
 Make sure the combined value of all attributes is unique for each Biological sample. Note that **sample name**, **sample title**, and **description** are not included in this check for uniqueness of the sample's attributes. If this problem arises because of biological replicates, please add a replicate column to the sheet and record the replicate numbers to differentiate them.
+
 <br />
 
->***Error: Multiple BioSamples cannot have identical attributes***
+***Error: Multiple BioSamples cannot have identical attributes***
 <br />
 
 **Problem**
@@ -236,6 +237,7 @@ If you want to include an existing BioSample in the new BioProject, go back to t
 <br />
 
 If you are using the **SRA_metadata_Datathon.xlsx**, in the [SRA metadata step](#metadata), you need to change the name of the first column from **sample_name** to **biosample_accession**. Then you can add the existing BioSample's accession numbers **(SAMN#)** to link the new sequence files to the already existing BioSamples; and to include them in the new BioProject. 
+<br />
 
 To find the accession numbers of Biosamples you already registered go to the [Submission Portal](#accessingsra) and follow the next steps: 
 <br />
@@ -288,8 +290,8 @@ _Note: most often, all samples within a project will be sequenced using the same
 >##### Submitting new sequence data vs submitting new metadata to already existing ones <a name="newvs"></a>
 <br />
 When submitting new BioSamples, during the [BioSample attributes step](#bioattributes), a specific name for each sample is assigned in the **sample_name** column of the **MIMARKS.survey.soil.5.0_Dathaton.xlsx** file. In the SRA Metadata step, in the **SRA_metadata_Dathaton.xlsx** spreadsheet, the **sample_name** must match that given to the new BioSample, to correctly link the sequence data to the metadata.
-<br />
 
+<br />
 
 >##### Explanation of the elements of a public display for each Sample in the SRA<a name="elementssra"></a>
 <br />
@@ -301,7 +303,6 @@ When submitting new BioSamples, during the [BioSample attributes step](#bioattri
 <br />
 In this step, you will upload the files listed in the **SRA Metadata excel file**. Files can be compressed using gzip or bzip2 and may be submitted in a _tar archive, but archiving and/or compressing your files is not required. Uploading zip files is not permitted. If you are uploading a tar archive, list each file name within the archive, not the archive's name.
 <br />
-
 
 <img src=".\First time upload images\uploading-files.png">
 <br />
@@ -317,7 +318,7 @@ Don’t forget to press ***Continue*** to save your progress. Otherwise you have
 >##### Possible Errors or Warnings at this step <a name="errors2"></a>
 <br />
 
-> ***Warning: You uploaded one or more extra files that are not in your Metadata table***
+***Warning: You uploaded one or more extra files that are not in your Metadata table***
 <br />
 
 **Problem**
@@ -328,9 +329,10 @@ You have uploaded files not listed in your SRA Metadata template.
 **Solution**
 
 If you do not intend to include these files in your SRA submission, click ***Continue***. All files not included in the SRA Metadata will be ignored. If you intend to include these files in your SRA submission, return to the [SRA Metadata step](#metadata) and update their names.
+
 <br />
 
-> ***Error: Some files are missing. Upload missing files or fix metadata table***
+***Error: Some files are missing. Upload missing files or fix metadata table***
 <br />
 
 **Problem**
@@ -341,9 +343,10 @@ The program does not find all files listed in the SRA Metadata table in your sub
 **Solution**
 
 Upload files that are reported missing. Also, check that filenames listed in your metadata table, and make sure that the file extensions (.fq, .fastq, .sff, etc.) exactly match those of the files you want to upload. In the latter case, go back to the [SRA Metadata tab](#metadata), delete your metadata file and upload a new one with the correct filenames. Click ***Continue***. 
+
 <br />
 
-> ***Error: File <filename> is corrupted. Please re-upload the file...***
+***Error: File <filename> is corrupted. Please re-upload the file...***
 <br />
 	
 **Problem**
@@ -469,6 +472,7 @@ Clicking on ***Retrieve all samples from this project*** allows you to see all t
 <br />
 	
 The marked elements are:
+
 <br />
 	
 - **Experiment (SRX#)**: identifier of instrument and library information of a specific sample (SRS#).
@@ -490,11 +494,11 @@ Follow the next steps:
 <br />
 ____
 1. While being logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
-
+<br />
 <br />
 ____
 2. Click ***Submit***
-
+<br />
 <br />
 ____
 3. At the Submission Portal click on ***Manage data***.
@@ -510,13 +514,14 @@ ____
 <br />
 
 The BioProject’s managing page allows you to:
+
 <br />
 	
 - ***Edit*** fields that were written during the submission.
 	
 - ***Add*** information that was not written during the submission.
 	
--***Edit*** most fields of the SRA Metadata. You have to check the boxes for the Experiments you want to modify first.
+- ***Edit*** most fields of the SRA Metadata. You have to check the boxes for the Experiments you want to modify first.
 
 <br />
 
