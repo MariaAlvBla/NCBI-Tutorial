@@ -1,8 +1,11 @@
 # Sharing data that has already been uploaded to NCBI's SRA
+<br />
 
 Once data is archived, NCBI's SRA creates summary metadata table of the sample metadata (e.g., the sample's geographic location and sample type) and technical metadata (e.g., the sequencer used) for all samples in that BioProject or BioSample. As there are no standard nomenclatures for many of these fields, integrating metadata from different projects is difficult. For example, the word amplicon can be written as *amplicon*, *Amplicon* or *AMPLICON*, and this creates a problem when combining  several projects where the meaning of these values is identical, but they are named differently, hindering the large scale analysis of genetic data.
 
 For the Datathon, we have created a custom table with fixed nomenclatures for categories that are essential for large scale analysis. Following this standard nomenclature facilitates the sharing and combining of data by researchers. *This tutorial will guide users on how to access and transform existing NCBI SRA metadata tables to this standard nomenclature.
+
+<br />
 
 >## Table of contents
 <br />
