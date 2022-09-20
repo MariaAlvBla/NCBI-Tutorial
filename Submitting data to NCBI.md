@@ -303,11 +303,13 @@ When submitting new BioSamples, during the [BioSample attributes step](#bioattri
 
 >#### Step 7. Files <a name="files"></a>
 <br />
+
 In this step, you will upload the files listed in the **SRA Metadata excel file**. Files can be compressed using gzip or bzip2 and may be submitted in a _tar archive, but archiving and/or compressing your files is not required. Uploading zip files is not permitted. If you are uploading a tar archive, list each file name within the archive, not the archive's name.
 
 <br />
 
 <img src=".\First time upload images\uploading-files.png">
+
 <br />
 
 We recommend you use the ***Web browser upload via HTTP or Aspera Connect plugin*** option to upload the files, unless you have more than 10 GB of data or more than 300 files to upload at once.
@@ -478,9 +480,8 @@ Clicking on ***Retrieve all samples from this project*** allows you to see all t
 <br />
 	
 The marked elements are:
-
 <br />
-	
+
 - **Experiment (SRX#)**: identifier of instrument and library information of a specific sample (SRS#).
 
 - **Study (SRP#)**: identifier of a study within a BioProject.
@@ -522,7 +523,6 @@ ____
 <br />
 
 The BioProject’s managing page allows you to:
-
 <br />
 	
 - ***Edit*** fields that were written during the submission.
