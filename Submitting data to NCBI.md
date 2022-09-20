@@ -116,7 +116,6 @@ At any point after having saved your progress, you can leave NCBI and [continue 
 
 You may get *Error* or *Warning* messages when saving your progress. Error messages describe the Error and suggest a solution that must be corrected before you can move to the next step of your submission. On the other hand, the Warning messages attempt to prevent you from making a possible mistake and do not block you from continuing your submission. 
 
-
 <br />
 
 
@@ -126,26 +125,27 @@ You may get *Error* or *Warning* messages when saving your progress. Error mess
 <img src=".\First time upload images\submitter.png" width=90% height=90%>
 
 <br />
-Here, the data archiver will be asked to include professional information. We recommend using you institutional **e-mail** and writting the information of the **institution** you work for.
 
+Here, the data archiver will be asked to include professional information. We recommend using you institutional **e-mail** and writting the information of the **institution** you work for.
 
 <br />
 
 
 >#### Step 2. General Information <a name="general"></a>
-<br />
 
+<br />
 <img src=".\First time upload images\general-info.png" width=80% height=80%>
 
 <br />
-The **BioProject** represents the research project from which the dataset originated. The information supplied in the **Biosample** provides context to your experimental data. Every metagenome, time point, tissue type, or treatment type must have its own Biosample; but biological and technical replicates are not unique BioSamples. _If the data you will submit is not linked to any previously submitted data, select **No** for the BioProject and BioSample categories in this step 
-_Note: most often, each sample will also be its own BioSample. If unsure, it is best to have each sample be a separate BioSample
-<br />
 
+The **BioProject** represents the research project from which the dataset originated. The information supplied in the **Biosample** provides context to your experimental data. Every metagenome, time point, tissue type, or treatment type must have its own Biosample; but biological and technical replicates are not unique BioSamples. _If the data you will submit is not linked to any previously submitted data, select **No** for the BioProject and BioSample categories in this step. 
+
+*Note: most often, each sample will also be its own BioSample. If unsure, it is best to have each sample be a separate BioSample.*
+
+<br />
 
 <img src=".\First time upload images\diagram.png" width=80% height=80%>
 <br />
-
 
 Depending on your answers at this step, the next steps would follow one of these pathways:
 
