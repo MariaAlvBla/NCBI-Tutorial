@@ -1,6 +1,8 @@
 # Submitting 16S rRNA gene sequence data to NCBI's Sequence Read Archives
+<br />
 
 This instructive provides step-to-step instructions to deposit 16S rRNA gene amplicon sequence data.
+<br />
 
 >## Table of contents
 <br />
