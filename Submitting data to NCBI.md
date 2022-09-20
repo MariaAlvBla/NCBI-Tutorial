@@ -2,6 +2,7 @@
 <br />
 
 This instructive provides step-to-step instructions to deposit 16S rRNA gene amplicon sequence data.
+
 <br />
 
 >## Table of contents
