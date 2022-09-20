@@ -98,18 +98,9 @@ ____
 
 - If the data comes from a human study, donor consent is usually necessary.
 
-<br />
-
-
 - Each upload must be kept under 5 TB, if you have more, split the upload across multiple submissions.
 
-<br />
-
-
 - Submissions can be linked to the same BioProject to ensure all data are searchable with a single accession code.
-
-<br />
-
 
 - Every fastq file should be less than 100 GB in size. If compressed files are larger than 100 GB, please split them before submission.
 
@@ -150,13 +141,14 @@ The **BioProject** represents the research project from which the dataset origi
 _Note: most often, each sample will also be its own BioSample. If unsure, it is best to have each sample be a separate BioSample
 <br />
 
+
 <img src=".\First time upload images\diagram.png" width=80% height=80%>
 <br />
 
 
 Depending on your answers at this step, the next steps would follow one of these pathways:
-<br />
 
+<br />
 
 <img src=".\First time upload images\pathway-map.png" width=80% height=80%>
 <br />
