@@ -189,9 +189,11 @@ Select the package ***MIMARKS Survey related***. In the displayed drop-down menu
 
 >#### Step 5. BioSample attributes <a name="bioattributes"></a>
 <br />
+
 This step provides contextual information about your samples. 
 
 <br />
+
 <img src=".\First time upload images\biosample-attribute.png" width=80% height=80%>
 
 <br />
@@ -206,26 +208,33 @@ The **sample_name** you give each sample in the attribute table will be again us
 
 >##### Possible Errors at this step <a name="errors1"></a>
 <br />
+
 > ***Error: Multiple BioSamples cannot have identical attributes***
 <br />
+
 **Problem**
 
 After filling out values for attributes provided in the template, your individual samples are not distinguishable by at least one or a combination of attributes.
 <br />
+
 **Solution**
 
 Make sure the combined value of all attributes is unique for each Biological sample. Note that **sample name**, **sample title**, and **description** are not included in this check for uniqueness of the sample's attributes. If this problem arises because of biological replicates, please add a replicate column to the sheet and record the replicate numbers to differentiate them.
 <br />
+
 >***Error: Multiple BioSamples cannot have identical attributes***
 <br />
+
 **Problem**
 
 Less often, this error may arise if you are attempting to deposit sequences that have already been deposited to NCBI, and the Submission Portal is preventing you from creating duplicates.
 <br />
+
 **Solution**
 
 If you want to include an existing BioSample in the new BioProject, go back to the [General Info tab](#general) and select *Yes* to the question *Did you already register BioSamples for this data set?*. The SRA Submission Wizard will then skip the BioSample type and attributes steps.
 <br />
+
 If you are using the **SRA_metadata_Datathon.xlsx**, in the [SRA metadata step](#metadata), you need to change the name of the first column from **sample_name** to **biosample_accession**. Then you can add the existing BioSample's accession numbers **(SAMN#)** to link the new sequence files to the already existing BioSamples; and to include them in the new BioProject. 
 
 To find the accession numbers of Biosamples you already registered go to the [Submission Portal](#accessingsra) and follow the next steps: 
@@ -248,6 +257,7 @@ ____
 
 >#### Step 6. SRA Metadata<a name="metadata"></a>
 <br />
+
 The SRA metadata describes the technical aspects of each sequencing experiment: the sequencing libraries, preparation techniques, and the names of the data files. 
 
 <br />
@@ -278,7 +288,6 @@ _Note: most often, all samples within a project will be sequenced using the same
 >##### Submitting new sequence data vs submitting new metadata to already existing ones <a name="newvs"></a>
 <br />
 When submitting new BioSamples, during the [BioSample attributes step](#bioattributes), a specific name for each sample is assigned in the **sample_name** column of the **MIMARKS.survey.soil.5.0_Dathaton.xlsx** file. In the SRA Metadata step, in the **SRA_metadata_Dathaton.xlsx** spreadsheet, the **sample_name** must match that given to the new BioSample, to correctly link the sequence data to the metadata.
-
 <br />
 
 
@@ -291,8 +300,8 @@ When submitting new BioSamples, during the [BioSample attributes step](#bioattri
 >#### Step 7. Files <a name="files"></a>
 <br />
 In this step, you will upload the files listed in the **SRA Metadata excel file**. Files can be compressed using gzip or bzip2 and may be submitted in a _tar archive, but archiving and/or compressing your files is not required. Uploading zip files is not permitted. If you are uploading a tar archive, list each file name within the archive, not the archive's name.
-
 <br />
+
 
 <img src=".\First time upload images\uploading-files.png">
 <br />
