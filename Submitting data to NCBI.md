@@ -314,99 +314,163 @@ Don’t forget to press ***Continue*** to save your progress. Otherwise you have
 
 <br />
 
------I'm here----------
 >##### Possible Errors or Warnings at this step <a name="errors2"></a>
 <br />
 
 > ***Warning: You uploaded one or more extra files that are not in your Metadata table***
 <br />
+
 **Problem**
 
 You have uploaded files not listed in your SRA Metadata template. 
 <br />
+
 **Solution**
 
 If you do not intend to include these files in your SRA submission, click ***Continue***. All files not included in the SRA Metadata will be ignored. If you intend to include these files in your SRA submission, return to the [SRA Metadata step](#metadata) and update their names.
 <br />
+
 > ***Error: Some files are missing. Upload missing files or fix metadata table***
 <br />
+
 **Problem**
 
 The program does not find all files listed in the SRA Metadata table in your submission folder.
 <br />
+
 **Solution**
 
 Upload files that are reported missing. Also, check that filenames listed in your metadata table, and make sure that the file extensions (.fq, .fastq, .sff, etc.) exactly match those of the files you want to upload. In the latter case, go back to the [SRA Metadata tab](#metadata), delete your metadata file and upload a new one with the correct filenames. Click ***Continue***. 
 <br />
+
 > ***Error: File <filename> is corrupted. Please re-upload the file...***
 <br />
+	
 **Problem**
 
 This Error occurs either because you have corrupt files on your side or the files became corrupted during transfer. 
+<br />
 
 **Solution**
 	
 Re-upload the files that were reported corrupt. For this, click the Fix button and follow the instructions. The filenames must be the same. Before re-uploading,  check the files for integrity on your side. If the gzip utility reported an error,  find and upload an uncorrupted version of this file before proceeding. If the file is OK, you can re-upload it.
+
+<br />
+
 	
 >#### Step 8. Review and Submit <a name="review"></a>
+<br />
 	
 During this step, you can review your submission's summary and make sure that everything is correct. You can still return to and change any step of your submission at this stage by clicking on the corresponding tabs at the top.
+
+<br />
 	
 <img src=".\First time upload images\submission-finished.png">
+<br />
 	
 Click ***Submit*** when you are sure everything is correct. After submitting, future changes to the BioProject are limited or can only be achieved by contacting NCBI's service desk.
 	
 If, on the other hand, you want to delete the whole submission click ***Delete submission***. This is the last chance to delete the submission without emailing NCBI’s service desk.
+
+<br />
+
 	
 >## Accessing an unfinished submission <a name="unfinished"></a>
+<br />
+To access an unfinished submission follow the next steps:
+<br />
+<br />
 
+---
 1. While logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
 
+<br />
+
+____
 2. Click ***Submit***
 
-3. In the Submission Portal click on ***My submissions***.
+<br />
 
+____
+3. In the Submission Portal click on ***My submissions***.
+<br />
 <img src=".\First time upload images\portal-submissions.png" width=80% height=80%>
 
-4. Find the submission with the ***Unfinished Status*** that has the title of the submission or the **submission ID (SUB#)** you are looking for.
+<br />
 
+____
+4. Find the submission with the ***Unfinished Status*** that has the title of the submission or the **submission ID (SUB#)** you are looking for.
+<br />
 <img src=".\First time upload images\unfinished-submission.png">
 
+
+<br />
+
+
 >## Processing  the submission<a name="processing"></a>
+<br />
 
 >### The Project is being reviewed by NCBI’s staff<a name="reviewed"></a>
+<br />
 
 Once submitted, your submission will be queued for processing, and you will likely get feedback within 24 hour.If submitting through the SRA Wizard, you will  receive feedback from the Wizard first.
 
 If your submission was successfully registered, you will receive the following email. 
 
+<br />
+
 <img src=".\First time upload images\email-1.PNG">
+<br />
+
 
 The project number you have been given **(PRJ#)** is permanent and unique,  but it will not appear to other users until NCBI's staff has fully processed it. We kindly ask you to provide the project number for the **Dathaton's database**.
 
->### The Project has been accepted<a name="accepted"></a>
 
+<br />
+
+
+>### The Project has been accepted<a name="accepted"></a>
+<br />
+	
 After the submitted data has been processed, you will receive the following email.
+
+<br />
 
 <img src=".\First time upload images\email-2.PNG">
 
+<br />
+
 Once the Project has been accepted, when someone searches for your project, the following information will be displayed.
+
+<br />
 
 <img src=".\First time upload images\seach-prj.png">
 
->#### Public display and searchable elements of a BioSample<a name="publicbiosample"></a>
+<br />
 
+
+>#### Public display and searchable elements of a BioSample<a name="publicbiosample"></a>
+<br />
 <img src=".\First time upload images\biosample-public.png">
+
+<br />
 
 The **BioSample (SAMN#)** is the identifier of specific Biosamples.
 Clicking on ***Retrieve all samples from this project*** allows you to see all the other BioSamples associated to the BioProject.
 
+<br />
+
+
 >### Public display and searchable elements of a SRA Experiment<a name="publicsra"></a>
 
+<br />
 <img src=".\First time upload images\experiment-display-short.png">
 
+<br />
+	
 The marked elements are:
-
+<br />
+	
 - **Experiment (SRX#)**: identifier of instrument and library information of a specific sample (SRS#).
 
 - **Study (SRP#)**: identifier of a study within a BioProject.
@@ -415,23 +479,38 @@ The marked elements are:
 
 - **Run (SRR#)**: identifier of the data file(s) derived from sequencing a library described by the associated Experiment.
 
+<br />
+
+
 >## Changing a submission<a name="changing"></a>
+<br />
 
 Follow the next steps:
-
+<br />
+<br />
+____
 1. While being logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
 
+<br />
+____
 2. Click ***Submit***
 
+<br />
+____
 3. At the Submission Portal click on ***Manage data***.
-
+<br />
 <img src=".\First time upload images\portal-manage.png" width=80% height=80%>
 
-4. Select the **BioProject (PRJNA#)** you want to update. You can also filter it by BioSamples at the ***BioSample tab*** or by Experiments at the ***SRA tab***. With these other filtering options the data shown by the Data Manager actually can't be edited. 
+<br />
 
+____
+4. Select the **BioProject (PRJNA#)** you want to update. You can also filter it by BioSamples at the ***BioSample tab*** or by Experiments at the ***SRA tab***. With these other filtering options the data shown by the Data Manager actually can't be edited. 
+<br />
 <img src=".\First time upload images\click-manage-data.png" width=80% height=80%>
+<br />
 
 The BioProject’s managing page allows you to:
+<br />
 	
 - ***Edit*** fields that were written during the submission.
 	
@@ -439,7 +518,10 @@ The BioProject’s managing page allows you to:
 	
 -***Edit*** most fields of the SRA Metadata. You have to check the boxes for the Experiments you want to modify first.
 
+<br />
+
 <img src=".\First time upload images\manage-data.png" width=80% height=80%>
+<br />
 
 If you want to add more data to an existing BioProject or Biosample, [create a new SRA submission](#accessingsra) and enter the accession number of the BioProject **(PRJNA#)** or the Biosample **(SAMN#)** when asked. This will ensure that the new data is linked to the existing BioProject.
 
@@ -449,30 +531,54 @@ A Submission represents a discrete act of depositing data (a transaction). The s
 
 After the **Run** is fully loaded, neither its files can be replaced, nor filenames can be changed. You will have to submit new files in a separate submission using [existing BioProject and BioSample accessions](#general) and request withdrawal of the **Run** containing the old files.
 
+
+<br />
+
+
 >## Downloading data<a name="downloading"></a>	
-	
+<br />
+
 >### Downloading data corresponding to a project <a name="downloadingone"></a>
+<br />
 
 As we have seen, NCBI supports the inclusion of exhaustive metadata when uploading data. To download all sequence data corresponding to a specific project or accession number, we recommend using the portal from the European Bioinformatics Institute  as part of the European Molecular Biology Laboratory [**(EMBL-EBI)**](https://external.ink?to=https://www.ebi.ac.uk/). For this you would have to follow the next steps:
-
+<br />
+<br />
+____
 1. Access [**EMBL-EBI's homepage**](https://external.ink?to=https://www.ebi.ac.uk/)
 
-2. Write the accession code of the BioProject, BioSample or SRA you are interested in, and click ***Search***.
+<br />
 
+____
+2. Write the accession code of the BioProject, BioSample or SRA you are interested in, and click ***Search***.
+<br />
 <img src=".\First time upload images\european-portal-search.png">
 
+<br />
+
+____
 3. Scroll down and select the entry corresponding to the accession number you were looking for.
 
-4. A shortened version of the metadata will be shown, as well as the files belonging to this accession number. For accessing the file's download option, scroll to the right at the sections with the list of files.
+<br />
 
+____
+4. A shortened version of the metadata will be shown, as well as the files belonging to this accession number. For accessing the file's download option, scroll to the right at the sections with the list of files.
+<br />
 <img src=".\First time upload images\dowload-ebi.png">
 
-5. Click ***Download All*** if you want to dowload all the **Experiments (SRR)** under this accession number. If you want to dowload only specific Experiments, select the corresponding check-boxes and click ***Download selected files***
+<br />
 
+____
+5. Click ***Download All*** if you want to dowload all the **Experiments (SRR)** under this accession number. If you want to dowload only specific Experiments, select the corresponding check-boxes and click ***Download selected files***
+<br />
 <img src=".\First time upload images\ebi-download-scroll.png">
+
+
+<br />
+
 	
 >### Downloading data corresponding to several accession numbers<a name="downloadingmore"></a>
-
+<br />
 To download large amounts of SRA data we recommend you use the [**SRA Toolkit**](https://external.ink?to=https://github.com/ncbi/sra-tools/wiki).
 
 
