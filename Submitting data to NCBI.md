@@ -2,7 +2,7 @@
 
 This instructive provides step-to-step instructions to deposit 16S rRNA gene amplicon sequence data.
 
-## Table of contents
+>## Table of contents
 <br />
 
 1. [Registering to NCBI](#registering)
@@ -30,12 +30,12 @@ This instructive provides step-to-step instructions to deposit 16S rRNA gene amp
 		1. [Public display and searchable elements of a BioSample](#publicbiosample)
 		2. [Public display and searchable elements of a SRA Experiment](#publicsra)
 6. [Changing a submission](#changing)
-7. [Downloading data](#dowloading)
-	1. [Downloading data corresponding to one accession number](#dowloadingone#)
-	2. [Downloading data corresponding to several accession numbers](#dowloadingmore)
+7. [Downloading data](#downloading)
+	1. [Downloading data corresponding to one accession number](#downloadingone#)
+	2. [Downloading data corresponding to several accession numbers](#downloadingmore)
 <br />
 
-## Registering to NCBI <a name="registering"></a>
+>## Registering to NCBI <a name="registering"></a>
 <br />
 To register to NCBI follow the next steps:
 <br />
@@ -56,7 +56,7 @@ ____
 <br />
 
 
-## Accessing the Sequence Read Archive (SRA) <a name="accessingsra"></a>
+>## Accessing the Sequence Read Archive (SRA) <a name="accessingsra"></a>
 <br />
 
 For accessing the Sequence Read Archive (SRA) follow the next steps:
@@ -90,10 +90,10 @@ ____
 <br />
 
 
-## Submitting data to SRA Submission Wizard] <a name="submittingwizard"></a>
+>## Submitting data to SRA Submission Wizard] <a name="submittingwizard"></a>
 <br />
 
-### Aspects to consider before submitting data <a name="aspects"></a>
+>### Aspects to consider before submitting data <a name="aspects"></a>
 <br />
 
 - If the data comes from a human study, donor consent is usually necessary.
@@ -116,7 +116,7 @@ ____
 <br />
 
 
-### Submitting data <a name="steps"></a>
+>### Submitting data <a name="steps"></a>
 <br />
 This process requires several steps. To save your progress, click ***Continue***. You can review or make changes to your previous steps during submission by clicking on the preceding tabs.  
 
@@ -128,7 +128,7 @@ You may get *Error* or *Warning* messages when saving your progress. Error mess
 <br />
 
 
-#### Step 1. Submitter <a name="submitter"></a>
+>#### Step 1. Submitter <a name="submitter"></a>
 
 <br />
 <img src=".\First time upload images\submitter.png" width=90% height=90%>
@@ -140,7 +140,7 @@ Here, the data archiver will be asked to include professional information. We re
 <br />
 
 
-#### Step 2. General Information <a name="general"></a>
+>#### Step 2. General Information <a name="general"></a>
 <br />
 
 <img src=".\First time upload images\general-info.png" width=80% height=80%>
@@ -168,7 +168,7 @@ The default **release date** is **Release immediately following processing**, bu
 <br />
 
 
-#### Step 3. Project (BioProject) information<a name="bioproject"></a>
+>#### Step 3. Project (BioProject) information<a name="bioproject"></a>
 <br />
 
 <img src=".\First time upload images\bioproject-info.png" width=80% height=80%>
@@ -182,7 +182,7 @@ In the **Public description** provide information that best describes your resea
 <br />
 
 
-#### Step 4. BioSample type<a name="biotype"></a>
+>#### Step 4. BioSample type<a name="biotype"></a>
 <br />
 -------------I need to continue editing from here----------------
 
@@ -192,7 +192,7 @@ Select the package ***MIMARKS Survey related***. In the displayed drop-down menu
 
 <img src=".\First time upload images\biosample-type-section.png" width=70% height=70%>
 
-#### Step 5. BioSample attributes <a name="bioattributes"></a>
+>#### Step 5. BioSample attributes <a name="bioattributes"></a>
 
 This step provides contextual information about your samples. 
 
@@ -202,7 +202,7 @@ For the **Datathon**, select ***Uploading a file using Excel format*** and use t
 
 The **sample_name** you give each sample in the attribute table will be again used at the **SRA metadata table** to link the sequence data and metadata. The sample names must be the same in both Excel files for them to be linked together.
 
-##### Possible Errors at this step <a name="errors1"></a>
+>##### Possible Errors at this step <a name="errors1"></a>
 
 > ***Error: Multiple BioSamples cannot have identical attributes***
 
@@ -236,7 +236,7 @@ To find the accession numbers of Biosamples you already registered go to the [Su
 
 <img src=".\First time upload images\my-submissions.png">
 
-#### Step 6. SRA Metadata<a name="metadata"></a>
+>#### Step 6. SRA Metadata<a name="metadata"></a>
 
 The SRA metadata describes the technical aspects of each sequencing experiment: the sequencing libraries, preparation techniques, and the names of the data files. 
 
@@ -247,7 +247,7 @@ For the **Datathon**, select ***Uploading a file using Excel format*** and use t
 When submitting the project, SRA **Experiment** captures the unique combination of techniques that was used to sequence a particular sample (i.e., each combination of **library + sequencing strategy + layout + instrument model** represents a different experiment). 
 _Note: most often, all samples within a project will be sequenced using the same combination of techniques, and will thus belong to a single Experiment. The most common exception is when two gene regions (e.g., 16S rRNA and ITS) are sequenced for the same project. 
 
-##### Recommendations to avoid common errors when submitting SRA metadata <a name="avoiderrors"></a>
+>##### Recommendations to avoid common errors when submitting SRA metadata <a name="avoiderrors"></a>
 
 - Paired-end data files (forward/reverse) must be listed together in the same **Run** (in the case of the spreadsheet in the same row) for the two files to be correctly processed as paired-end. All data files listed in a **Run** will be merged into a single **sra archive file**. Therefore, files from different samples or experiments should not be grouped in the same **Run**.
 
@@ -255,15 +255,15 @@ _Note: most often, all samples within a project will be sequenced using the same
 
 - Avoid submitting duplicated files because the Portal does not accept this, and such files may be suppressed without warning.
 
-##### Submitting new sequence data vs submitting new metadata to already existing ones <a name="newvs"></a>
+>##### Submitting new sequence data vs submitting new metadata to already existing ones <a name="newvs"></a>
 
 When submitting new BioSamples, during the [BioSample attributes step](#bioattributes), a specific name for each sample is assigned in the **sample_name** column of the **MIMARKS.survey.soil.5.0_Dathaton.xlsx** file. In the SRA Metadata step, in the **SRA_metadata_Dathaton.xlsx** spreadsheet, the **sample_name** must match that given to the new BioSample, to correctly link the sequence data to the metadata.
 
-##### Explanation of the elements of a public display for each Sample in the SRA<a name="elementssra"></a>
+>##### Explanation of the elements of a public display for each Sample in the SRA<a name="elementssra"></a>
 
 <img src=".\First time upload images\experiment-display-long.png">
 
-#### Step 7. Files <a name="files"></a>
+>#### Step 7. Files <a name="files"></a>
 
 In this step, you will upload the files listed in the **SRA Metadata excel file**. Files can be compressed using gzip or bzip2 and may be submitted in a _tar archive, but archiving and/or compressing your files is not required. Uploading zip files is not permitted. If you are uploading a tar archive, list each file name within the archive, not the archive's name.
 
@@ -275,7 +275,7 @@ We recommend you select ***Autofinish submission*** once the files have been suc
 
 Don’t forget to press ***Continue*** to save your progress. Otherwise you have to upload the files again.
 
-##### Possible Errors or Warnings at this step <a name="errors2"></a>
+>##### Possible Errors or Warnings at this step <a name="errors2"></a>
 
 > ***Warning: You uploaded one or more extra files that are not in your Metadata table***
 
@@ -307,7 +307,7 @@ This Error occurs either because you have corrupt files on your side or the file
 	
 Re-upload the files that were reported corrupt. For this, click the Fix button and follow the instructions. The filenames must be the same. Before re-uploading,  check the files for integrity on your side. If the gzip utility reported an error,  find and upload an uncorrupted version of this file before proceeding. If the file is OK, you can re-upload it.
 	
-#### Step 8. Review and Submit <a name="review"></a>
+>#### Step 8. Review and Submit <a name="review"></a>
 	
 During this step, you can review your submission's summary and make sure that everything is correct. You can still return to and change any step of your submission at this stage by clicking on the corresponding tabs at the top.
 	
@@ -317,7 +317,7 @@ Click ***Submit*** when you are sure everything is correct. After submitting, fu
 	
 If, on the other hand, you want to delete the whole submission click ***Delete submission***. This is the last chance to delete the submission without emailing NCBI’s service desk.
 	
-## Accessing an unfinished submission <a name="unfinished"></a>
+>## Accessing an unfinished submission <a name="unfinished"></a>
 
 1. While logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
 
@@ -331,9 +331,9 @@ If, on the other hand, you want to delete the whole submission click ***Delete s
 
 <img src=".\First time upload images\unfinished-submission.png">
 
-## Processing  the submission<a name="processing"></a>
+>## Processing  the submission<a name="processing"></a>
 
-### The Project is being reviewed by NCBI’s staff<a name="reviewed"></a>
+>### The Project is being reviewed by NCBI’s staff<a name="reviewed"></a>
 
 Once submitted, your submission will be queued for processing, and you will likely get feedback within 24 hour.If submitting through the SRA Wizard, you will  receive feedback from the Wizard first.
 
@@ -343,7 +343,7 @@ If your submission was successfully registered, you will receive the following e
 
 The project number you have been given **(PRJ#)** is permanent and unique,  but it will not appear to other users until NCBI's staff has fully processed it. We kindly ask you to provide the project number for the **Dathaton's database**.
 
-### The Project has been accepted<a name="accepted"></a>
+>### The Project has been accepted<a name="accepted"></a>
 
 After the submitted data has been processed, you will receive the following email.
 
@@ -353,14 +353,14 @@ Once the Project has been accepted, when someone searches for your project, the 
 
 <img src=".\First time upload images\seach-prj.png">
 
-#### Public display and searchable elements of a BioSample<a name="publicbiosample"></a>
+>#### Public display and searchable elements of a BioSample<a name="publicbiosample"></a>
 
 <img src=".\First time upload images\biosample-public.png">
 
 The **BioSample (SAMN#)** is the identifier of specific Biosamples.
 Clicking on ***Retrieve all samples from this project*** allows you to see all the other BioSamples associated to the BioProject.
 
-### Public display and searchable elements of a SRA Experiment<a name="publicsra"></a>
+>### Public display and searchable elements of a SRA Experiment<a name="publicsra"></a>
 
 <img src=".\First time upload images\experiment-display-short.png">
 
@@ -374,13 +374,13 @@ The marked elements are:
 
 - **Run (SRR#)**: identifier of the data file(s) derived from sequencing a library described by the associated Experiment.
 
-## Changing a submission<a name="changing"></a>
+>## Changing a submission<a name="changing"></a>
 
 Follow the next steps:
 
 1. While being logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
 
-2.  Click ***Submit***
+2. Click ***Submit***
 
 3. At the Submission Portal click on ***Manage data***.
 
@@ -408,9 +408,9 @@ A Submission represents a discrete act of depositing data (a transaction). The s
 
 After the **Run** is fully loaded, neither its files can be replaced, nor filenames can be changed. You will have to submit new files in a separate submission using [existing BioProject and BioSample accessions](#general) and request withdrawal of the **Run** containing the old files.
 
-## Downloading data<a name="dowloading"></a>	
+>## Downloading data<a name="downloading"></a>	
 	
-# Downloading data corresponding to a project <a name="dowloadingone"></a>
+>### Downloading data corresponding to a project <a name="downloadingone"></a>
 
 As we have seen, NCBI supports the inclusion of exhaustive metadata when uploading data. To download all sequence data corresponding to a specific project or accession number, we recommend using the portal from the European Bioinformatics Institute  as part of the European Molecular Biology Laboratory [**(EMBL-EBI)**](https://external.ink?to=https://www.ebi.ac.uk/). For this you would have to follow the next steps:
 
@@ -430,7 +430,7 @@ As we have seen, NCBI supports the inclusion of exhaustive metadata when uploadi
 
 <img src=".\First time upload images\ebi-download-scroll.png">
 	
-# Downloading data corresponding to several accession numbers<a name="dowloadingmore"></a>
+>### Downloading data corresponding to several accession numbers<a name="downloadingmore"></a>
 
 To download large amounts of SRA data we recommend you use the [**SRA Toolkit**](https://external.ink?to=https://github.com/ncbi/sra-tools/wiki).
 
