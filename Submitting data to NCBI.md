@@ -210,6 +210,7 @@ The **sample_name** you give each sample in the attribute table will be again us
 <br />
 
 ***Error: Multiple BioSamples cannot have identical attributes***
+
 <br />
 
 **Problem**
@@ -224,6 +225,7 @@ Make sure the combined value of all attributes is unique for each Biological sam
 <br />
 
 ***Error: Multiple BioSamples cannot have identical attributes***
+
 <br />
 
 **Problem**
@@ -290,8 +292,8 @@ _Note: most often, all samples within a project will be sequenced using the same
 >##### Submitting new sequence data vs submitting new metadata to already existing ones <a name="newvs"></a>
 <br />
 When submitting new BioSamples, during the [BioSample attributes step](#bioattributes), a specific name for each sample is assigned in the **sample_name** column of the **MIMARKS.survey.soil.5.0_Dathaton.xlsx** file. In the SRA Metadata step, in the **SRA_metadata_Dathaton.xlsx** spreadsheet, the **sample_name** must match that given to the new BioSample, to correctly link the sequence data to the metadata.
-
 <br />
+
 
 >##### Explanation of the elements of a public display for each Sample in the SRA<a name="elementssra"></a>
 <br />
@@ -302,6 +304,7 @@ When submitting new BioSamples, during the [BioSample attributes step](#bioattri
 >#### Step 7. Files <a name="files"></a>
 <br />
 In this step, you will upload the files listed in the **SRA Metadata excel file**. Files can be compressed using gzip or bzip2 and may be submitted in a _tar archive, but archiving and/or compressing your files is not required. Uploading zip files is not permitted. If you are uploading a tar archive, list each file name within the archive, not the archive's name.
+
 <br />
 
 <img src=".\First time upload images\uploading-files.png">
@@ -319,6 +322,7 @@ Don’t forget to press ***Continue*** to save your progress. Otherwise you have
 <br />
 
 ***Warning: You uploaded one or more extra files that are not in your Metadata table***
+
 <br />
 
 **Problem**
@@ -333,6 +337,7 @@ If you do not intend to include these files in your SRA submission, click ***Con
 <br />
 
 ***Error: Some files are missing. Upload missing files or fix metadata table***
+
 <br />
 
 **Problem**
@@ -347,6 +352,7 @@ Upload files that are reported missing. Also, check that filenames listed in you
 <br />
 
 ***Error: File <filename> is corrupted. Please re-upload the file...***
+
 <br />
 	
 **Problem**
@@ -494,12 +500,14 @@ Follow the next steps:
 <br />
 ____
 1. While being logged in, go to [**NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/).
+
 <br />
-<br />
+
 ____
 2. Click ***Submit***
+
 <br />
-<br />
+
 ____
 3. At the Submission Portal click on ***Manage data***.
 <br />
