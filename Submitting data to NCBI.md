@@ -40,7 +40,8 @@ This instructive provides step-to-step instructions to deposit 16S rRNA gene amp
 To register to NCBI follow the next steps:
 <br />
 <br />
-____
+
+---
 1. [**Access NCBI's homepage**](https://external.ink?to=https://www.ncbi.nlm.nih.gov/) and click ***Log in***.
 <br />
 <img src=".\First time upload images\home-login.png">
