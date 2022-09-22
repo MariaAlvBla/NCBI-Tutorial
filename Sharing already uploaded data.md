@@ -147,7 +147,8 @@ Alternatively you can download specific **Runs** by checking on the boxes corres
 
 >## Transfering metadata to the Datathon's customized table <a name="transfering"></a>
 <br />
-After having download NCBI's summary table, it must be opened with [specific settings](#opening) to display it's information correctly. After having opened it, some of it's data needs to be [transfered to a customized table](#filling) created for the Datathon, to ensure that all shared data has a consistent format. 
+
+After having download NCBI's summary table, it must be opened with [specific settings](#summary) to display it's information correctly. After having opened it, some of it's data needs to be [transfered to a customized table](#filling) created for the Datathon, to ensure that all shared data has a consistent format. 
 
 <br />
 
@@ -162,7 +163,7 @@ In the following picture the settings are wrong and the columns that had values 
 
 <br />
 
-<img src=".\Sharing already uploaded data images\wrong-setting.png" width=90% height=90%>
+<img src=".\Sharing already uploaded data images\wrong-setting.png" width=60% height=60%>
 
 After you corrected the separation options, which will depend on the import's lenguage, the columns with values that had spaces on them shouldn't be separated anymore. In our example, now the university's full name is in one cell.
 
