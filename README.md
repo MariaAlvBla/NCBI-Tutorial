@@ -14,7 +14,7 @@ Its purpose is:
 <br />
 
 To facilitate the sharing of data we have created two tutorials: 
-* [To submit sequence data the data to the NCBI Portal](https://github.com/MariaAlvBla/NCBI-Tutorial/blob/main/Submitting%20data%20to%20NCBI.md)
+* [To submit sequence data to the NCBI Portal](https://github.com/MariaAlvBla/NCBI-Tutorial/blob/main/Submitting%20data%20to%20NCBI.md)
 * [To generate compatible metadata tables, when sequence data has already been archived in NCBI but will be included in the local database](https://github.com/MariaAlvBla/NCBI-Tutorial/blob/main/Sharing%20already%20uploaded%20data). 
 
 <br />
