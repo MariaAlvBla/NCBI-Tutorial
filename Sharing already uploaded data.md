@@ -171,7 +171,6 @@ After you corrected the separation options, which will depend on the import's le
 
 <img src=".\Sharing already uploaded data images\right-setting.png" width=90% height=90%>
 
-
 <br />
 
 
