@@ -14,7 +14,9 @@ For the Datathon, we have created a custom table with fixed nomenclatures for ca
 	1. [By searching the accession code](#searching)
 	2. [By tracking it in "my submissions"](#tracking)
 2. [Downloading the summary table of a BioProject or a BioSample](#summary)
-3. [Filling in the Datathon's customized excel table](#filling)
+3. [Transfering metadata to the Datathon's customized table](#transfering)
+	1. [Opening NCBI's summary table](#opening)
+	2. [Filling in the customized table](#filling)
 <br />
   
 >## Accessing the metadata associated to a BioProject <a name="accessing"></a>
@@ -143,7 +145,13 @@ Alternatively you can download specific **Runs** by checking on the boxes corres
 <br />
 
 
->## Filling in the Datathon's customized excel table <a name="filling"></a>
+>## Transfering metadata to the Datathon's customized table <a name="transfering"></a>
+<br />
+adsadad
+
+<br />
+
+>### Opening NCBI's summary table <a name="opening"></a>
 <br />
 
 If you followed the steps in the [previous section](#summary), you will now have a text file (.txt) with the name **SraRunTable**. Instead of opening it with a text procesor, open it with software such as  **Open Office Calc**, or **Excel**.
@@ -155,3 +163,18 @@ In the following picture the settings are wrong and the columns that had values 
 <br />
 
 <img src=".\Sharing already uploaded data images\wrong-setting.png" width=90% height=90%>
+
+After you corrected the separation options, which will depend on the import's lenguage, the columns with values that had spaces on them shouldn't be separated anymore. In our example, now the university's full name is in one cell.
+
+<br />
+
+<img src=".\Sharing already uploaded data images\right-setting.png" width=90% height=90%>
+
+
+<br />
+
+
+>### Filling in the customized table <a name="filling"></a>
+<br />
+balalal
+
