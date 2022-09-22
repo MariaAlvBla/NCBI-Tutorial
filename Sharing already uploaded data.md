@@ -147,7 +147,7 @@ Alternatively you can download specific **Runs** by checking on the boxes corres
 
 >## Transfering metadata to the Datathon's customized table <a name="transfering"></a>
 <br />
-adsadad
+After having download NCBI's summary table, it must be opened with [specific settings](#opening) to display it's information correctly. After having opened it, some of it's data needs to be [transfered to a customized table](#filling) created for the Datathon, to ensure that all shared data has a consistent format. 
 
 <br />
 
@@ -176,5 +176,5 @@ After you corrected the separation options, which will depend on the import's le
 
 >### Filling in the customized table <a name="filling"></a>
 <br />
-balalal
+Now you can dowload and open the customed table called [**Metadata_table_Datathon.xlsx**](https://external.ink?to=https://github.com/MariaAlvBla/NCBI-Tutorial/blob/main/Datathon%20tables/Metadata_table_Datathon.xlsx). This table includes the names of selected columns from NCBI's summary table. Please transfer only the information from these selected columns; and contact the MICODA team if you would like to add more columns to the file. Makes sure you have carefully read the instructions provided in the table before filling in the data, and keep in mind that some of the columns have drop down menus.
 
