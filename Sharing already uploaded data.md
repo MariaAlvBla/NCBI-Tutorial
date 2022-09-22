@@ -176,7 +176,7 @@ After you corrected the separation options, which will depend on the import's le
 
 >### Filling in the customized table <a name="filling"></a>
 <br />
-Now you can dowload and open the following customed table:
+Now you can download and open the following custom table:
 <br />
 <br />
 
