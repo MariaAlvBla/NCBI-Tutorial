@@ -176,5 +176,12 @@ After you corrected the separation options, which will depend on the import's le
 
 >### Filling in the customized table <a name="filling"></a>
 <br />
-Now you can dowload and open the customed table called [**Metadata_table_Datathon.xlsx**](https://external.ink?to=https://github.com/MariaAlvBla/NCBI-Tutorial/blob/main/Datathon%20tables/Metadata_table_Datathon.xlsx). This table includes the names of selected columns from NCBI's summary table. Please transfer only the information from these selected columns; and contact the MICODA team if you would like to add more columns to the file. Makes sure you have carefully read the instructions provided in the table before filling in the data, and keep in mind that some of the columns have drop down menus.
+Now you can dowload and open the following customed table:
+<br />
+<br />
+
+[**Metadata_table_Datathon.xlsx**](https://external.ink?to=https://github.com/MariaAlvBla/NCBI-Tutorial/blob/main/Datathon%20tables/)
+
+<br />
+This table includes the names of selected columns from NCBI's summary table. Please transfer only the information from these selected columns; and contact the MICODA team if you would like to add more columns to the file. Makes sure you have carefully read the instructions provided in the table before filling in the data, and keep in mind that some of the columns have drop down menus.
 
