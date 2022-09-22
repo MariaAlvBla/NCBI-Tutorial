@@ -201,9 +201,16 @@ This step provides contextual information about your samples.
 
 <br />
 
-For the **Datathon**, select ***Uploading a file using Excel format*** and use the custom Excel File we will provide, ***MIMARKS.survey.soil.5.0_Dathaton.xlsx***. Please read the instructions included in the excel carefully before filling in the values. Remember that you can only upload the tab-delimited text file version of the sheet **MIMARKS.survey.soil.5.0**. If working in Excel, export this spreadsheet as a tab-delimited file
+For the **Datathon**, select ***Uploading a file using Excel format*** and use the following customed Excel table:
+<br />
+<br />
 
-The **sample_name** you give each sample in the attribute table will be again used at the **SRA metadata table** to link the sequence data and metadata. The sample names must be the same in both Excel files for them to be linked together.
+[**MIMARKS.survey.soil.5.0_Dathaton.xlsx**](https://external.ink?to=https://github.com/MariaAlvBla/NCBI-Tutorial/blob/main/Datathon%20tables/)
+
+<br />
+Please read the instructions included in the excel carefully before filling in the values. Remember that you can only upload the tab-delimited text file version of the sheet **MIMARKS.survey.soil.5.0**. If working in Excel, export this spreadsheet as a tab-delimited file
+
+The **sample_name** you give each sample in the attribute table will be again used at the [**SRA metadata table**](#metadata) to link the sequence data and metadata. The sample names must be the same in both Excel files for them to be linked together.
 
 
 <br />
@@ -241,7 +248,7 @@ Less often, this error may arise if you are attempting to deposit sequences that
 If you want to include an existing BioSample in the new BioProject, go back to the [General Info tab](#general) and select *Yes* to the question *Did you already register BioSamples for this data set?*. The SRA Submission Wizard will then skip the BioSample type and attributes steps.
 <br />
 
-If you are using the **SRA_metadata_Datathon.xlsx**, in the [SRA metadata step](#metadata), you need to change the name of the first column from **sample_name** to **biosample_accession**. Then you can add the existing BioSample's accession numbers **(SAMN#)** to link the new sequence files to the already existing BioSamples; and to include them in the new BioProject. 
+If you are using the [**SRA_metadata_Datathon.xlsx**, in the SRA metadata step](#metadata), you need to change the name of the first column from **sample_name** to **biosample_accession**. Then you can add the existing BioSample's accession numbers **(SAMN#)** to link the new sequence files to the already existing BioSamples; and to include them in the new BioProject. 
 <br />
 
 To find the accession numbers of Biosamples you already registered go to the [Submission Portal](#accessingsra) and follow the next steps: 
@@ -272,7 +279,14 @@ The SRA metadata describes the technical aspects of each sequencing experiment: 
 <img src=".\First time upload images\sra-metadata.png" width=80% height=80%>
 <br />
 
-For the **Datathon**, select ***Uploading a file using Excel format*** and use the custom Excel File called **SRA_metadata_Dathaton.xlsx**. Please read the instructions included in the spreadsheet carefully before filling in the values. You can only upload the tab-delimited text file version of the spreadsheet **SRA data**. If working in Excel, export that spreadsheet as a tab-delimited file. 
+For the **Datathon**, select ***Uploading a file using Excel format*** and use the following customed Excel table:
+<br />
+<br />
+
+[**SRA_metadata_Datathon.xlsx**](https://external.ink?to=https://github.com/MariaAlvBla/NCBI-Tutorial/blob/main/Datathon%20tables/)
+
+<br />
+Please read the instructions included in the spreadsheet carefully before filling in the values. You can only upload the tab-delimited text file version of the spreadsheet **SRA data**. If working in Excel, export that spreadsheet as a tab-delimited file. 
 
 When submitting the project, SRA **Experiment** captures the unique combination of techniques that was used to sequence a particular sample (i.e., each combination of **library + sequencing strategy + layout + instrument model** represents a different experiment). 
 _Note: most often, all samples within a project will be sequenced using the same combination of techniques, and will thus belong to a single Experiment. The most common exception is when two gene regions (e.g., 16S rRNA and ITS) are sequenced for the same project. 
@@ -294,7 +308,7 @@ _Note: most often, all samples within a project will be sequenced using the same
 
 >##### Submitting new sequence data vs submitting new metadata to already existing ones <a name="newvs"></a>
 <br />
-When submitting new BioSamples, during the [BioSample attributes step](#bioattributes), a specific name for each sample is assigned in the **sample_name** column of the **MIMARKS.survey.soil.5.0_Dathaton.xlsx** file. In the SRA Metadata step, in the **SRA_metadata_Dathaton.xlsx** spreadsheet, the **sample_name** must match that given to the new BioSample, to correctly link the sequence data to the metadata.
+When submitting new BioSamples, during the [BioSample attributes step](#bioattributes), a specific name for each sample is assigned in the **sample_name** column of the [**MIMARKS.survey.soil.5.0_Dathaton.xlsx** file](#bioattributes). In the SRA Metadata step, in the [**SRA_metadata_Dathaton.xlsx** spreadsheet](#metadata), the **sample_name** must match that given to the new BioSample, to correctly link the sequence data to the metadata.
 <br />
 
 
@@ -307,7 +321,7 @@ When submitting new BioSamples, during the [BioSample attributes step](#bioattri
 >#### Step 7. Files <a name="files"></a>
 <br />
 
-In this step, you will upload the files listed in the **SRA Metadata excel file**. Files can be compressed using gzip or bzip2 and may be submitted in a _tar archive, but archiving and/or compressing your files is not required. Uploading zip files is not permitted. If you are uploading a tar archive, list each file name within the archive, not the archive's name.
+In this step, you will upload the files listed in the [**SRA Metadata excel file**](#metadata). Files can be compressed using gzip or bzip2 and may be submitted in a _tar archive, but archiving and/or compressing your files is not required. Uploading zip files is not permitted. If you are uploading a tar archive, list each file name within the archive, not the archive's name.
 
 <br />
 
