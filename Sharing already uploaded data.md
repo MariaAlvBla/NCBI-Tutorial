@@ -148,7 +148,7 @@ Alternatively you can download specific **Runs** by checking on the boxes corres
 >## Transfering metadata to the Datathon's customized table <a name="transfering"></a>
 <br />
 
-After having download NCBI's summary table, it must be opened with [specific settings](#summary) to display it's information correctly. After having opened it, some of it's data needs to be [transfered to a customized table](#filling) created for the Datathon, to ensure that all shared data has a consistent format. 
+After having download NCBI's summary table, it must be opened with [specific settings](#opening) to display it's information correctly. After having opened it, some of it's data needs to be [transfered to a customized table](#filling) created for the Datathon, to ensure that all shared data has a consistent format. 
 
 <br />
 
