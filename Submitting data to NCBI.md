@@ -34,7 +34,7 @@ This instructive provides step-to-step instructions to deposit 16S rRNA gene amp
 		2. [Public display and searchable elements of a SRA Experiment](#publicsra)
 6. [Changing a submission](#changing)
 7. [Downloading data](#downloading)
-	1. [Downloading data corresponding to one accession number](#downloadingone#)
+	1. [Downloading data corresponding to one accession number](#downloadingone)
 	2. [Downloading data corresponding to several accession numbers](#downloadingmore)
 <br />
 
