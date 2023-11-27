@@ -14,8 +14,8 @@ Its purpose is:
 <br />
 
 To facilitate the sharing of data we have created two tutorials: 
-* [To submit sequence data to the NCBI Portal]([https://github.com/MariaAlvBla/NCBI-Tutorial/wiki/Submitting-16S-rRNA-gene-sequence-data-to-NCBI's-Sequence-Read-Archives](https://github.com/MariaAlvBla/NCBI-Tutorial/wiki/Submitting-16S-rRNA-and-ITS-gene-sequence-data-to-NCBI's-Sequence-Read-Archives))
-* [To generate compatible metadata tables, when sequence data has already been archived in NCBI but will be included in the local database]([https://github.com/MariaAlvBla/NCBI-Tutorial/wiki/Sharing-data-that-has-already-been-uploaded-to-NCBI's-Sequence-Read-Archives](https://github.com/MariaAlvBla/NCBI-Tutorial/wiki/Sharing-data-that-has-already-been-uploaded-to-NCBI's-Sequence-Read-Archives)). 
+* [To submit sequence data to the NCBI Portal](https://github.com/MariaAlvBla/NCBI-Tutorial/wiki/Submitting-16S-rRNA-and-ITS-gene-sequence-data-to-NCBI's-Sequence-Read-Archives)
+* [To generate compatible metadata tables, when sequence data has already been archived in NCBI but will be included in the local database](https://github.com/MariaAlvBla/NCBI-Tutorial/wiki/Sharing-data-that-has-already-been-uploaded-to-NCBI's-Sequence-Read-Archives). 
 
 <br />
 
